@@ -5,5 +5,8 @@ body {
     font-family: "Arial", sans-serif;
     font-size: 16px;
     line-height: 20px;
-    background-image: "\images\landscape\sedona-mounteen.jpg "; 
-    background-color: turquoise; }
+    }
+.main-part {background-image: "\images\landscape\sedona-mounteen.jpg "; 
+    background-color: turquoise;
+    background-image: "images\landscape\sedona-mounteen.jpg";
+}
