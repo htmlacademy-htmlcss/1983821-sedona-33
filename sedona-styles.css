@@ -1,12 +1,34 @@
 body {
-    width: 550px;
+    width: 1200px;
+    height: 2503px;
     margin: 0;
     padding: 0 10px;
     font-family: "Arial", sans-serif;
     font-size: 16px;
     line-height: 20px;
-    }
-.main-part {background-image: "\images\landscape\sedona-mounteen.jpg "; 
     background-color: turquoise;
-    background-image: "images\landscape\sedona-mounteen.jpg";
-}
+    }
+    .page-header {position: absolute;
+        width: 1060px;
+        height: 66px;
+        left: 40px;
+        top: 0px;
+        }
+.main-part {
+    position: absolute;
+    width: 1200px;
+    height: 487px;
+    left: 40px;
+    top: 62px;
+    }
+    .typography {Font 
+        PT Sans;
+         Weight  700;
+        Style 
+        normal;
+        Size 
+        37,13px;
+        Line height 
+        44,55px;
+        Align 
+        Center;}
