@@ -6,9 +6,15 @@ body {
     font-family: "Arial", sans-serif;
     font-size: 16px;
     line-height: 20px;
-    background-color: turquoise;
+   background-color: none; 
     }
-    nav {align-content: horizontal;}
+    nav {position: absolute;
+        width: 1060px;
+        height: 66px;
+        left: 40px;
+        top: 0px;
+        align-content: horizontal;
+    background-image: none;}
     .navigation-list {position: absolute;
         left: 15.94%;
         right: 51.51%;
@@ -29,17 +35,28 @@ body {
          }
     .main-part {
     position: absolute;
+    width: 1060px;
+    height: 66px;
+    left: 40px;
+    top: 66px;
     width: 1200px;
     height: 487px;
     left: 40px;
     top: 62px;
     background-color: aquamarine;
     }
+    .advantageslist {position: absolute;
+        width: 1200px;
+        height: 1535px;
+        left: 40px;
+        top: 832px;
+        background-color: rgb(143, 135, 25);}
     .typography {font: PT Sans;
-        width: 700px;
-        font-style: normal;
-        size: 37,13px;
-        line-height: 44,55px;
-           }
+        position: absolute;
+width: 1600px;
+height: 283.1px;
+left: 40px;
+top: 548.9px;
+        background-color: darkgreen;   }
     .visually-hidden {
             display: none; }
