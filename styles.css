@@ -43,7 +43,7 @@ body {
     height: 487px;
     left: 40px;
     top: 62px;
-    background-color: aquamarine;
+    background-color: "none";
     }
     .advantageslist {position: absolute;
         width: 1200px;
@@ -52,11 +52,23 @@ body {
         top: 832px;
         background-color: rgb(143, 135, 25);}
     .typography {font: PT Sans;
-        position: absolute;
-width: 1600px;
-height: 283.1px;
-left: 40px;
-top: 548.9px;
+        position: relative ;
+        width: 1600px;
+        height: 283.1px;
+        left: 40px;
+        top: 548.9px;
         background-color: darkgreen;   }
     .visually-hidden {
             display: none; }
+    .mailing {position: absolute;
+        width: 1200px;
+        height: 411px;
+        left: 40px;
+        top: 2784px;
+        background-image: url("images/landscape/background-mailing.png")}
+    .hotel-search {position: absolute;
+        width: 1200px;
+        height: 417px;
+        left: 40px;
+        top: 2367px;
+        }    

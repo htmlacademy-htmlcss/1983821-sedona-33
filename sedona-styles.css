@@ -8,27 +8,26 @@ body {
     line-height: 20px;
     background-color: turquoise;
     }
-    .page-header {position: absolute;
+    nav {align-items: horizontal;}
+    header {position: absolute;
         width: 1060px;
         height: 66px;
         left: 40px;
         top: 0px;
-        }
-.main-part {
+        background-color: blueviolet;
+         }
+    .main-part {
     position: absolute;
     width: 1200px;
     height: 487px;
     left: 40px;
     top: 62px;
     }
-    .typography {Font 
-        PT Sans;
-         Weight  700;
-        Style 
-        normal;
-        Size 
-        37,13px;
-        Line height 
-        44,55px;
-        Align 
-        Center;}
+    .typography {Font: PT Sans;
+         Weight:  700px;
+        Style:  normal;
+        Size:  37,13px;
+        Line-height:  44,55px;
+        Align:  Center;}
+    .visually-hidden {
+            display: none; }
