@@ -7,13 +7,18 @@ body {
     font-size: 16px;
     line-height: 20px;
     }
-    nav {position: absolute;
+    nav {position: absolute;   
         width: 1060px;
         height: 66px;
         left: 40px;
         top: 0px;
         align-content: horizontal;
-    background-image: none;}
+        background-image: none;}
+    .logotriangle {position: absolute;
+        left: 40px;
+        
+        top: 0%;
+        bottom: 0%;}
     .navigation-list {position: absolute;
         left: 15.94%;
         right: 51.51%;
@@ -30,7 +35,7 @@ body {
         height: 66px;
         left: 40px;
         top: 0px;
-        background-color: none;
+        background-color: antiquewhite ;
          }
     .main-part {
     position: absolute;
@@ -49,7 +54,7 @@ body {
         height: 1535px;
         left: 40px;
         top: 832px;
-        background-color: none;}
+        background-color: burlywood;}
     .typography {font: PT Sans;
         position: relative ;
         width: 1600px;
