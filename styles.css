@@ -42,8 +42,6 @@ body {
 }
 
 .advantageslist {
-    position: absolute;
-    width: 1200px;
     height: 1535px;
     left: 40px;
     top: 832px;
@@ -52,12 +50,24 @@ body {
 
 .typography {
     font: PT Sans;
-    position: relative;
-    width: 1600px;
-    height: 283.1px;
-    left: 40px;
+    width: 891px;
     top: 548.9px;
+    font-weight: bold;
+    font-size: 37.125px;
+    line-height: 45px;
+    /* or 120% */
+    text-align: center;
+    text-transform: uppercase;
     background-color: darkgreen;
+}
+
+.inner-text {
+    font-size: 22px;
+    line-height: 36px;
+    /* or 164% */
+    text-align: center;
+    /* basic/dark */
+    color: #333333;
 }
 
 .visually-hidden {
@@ -82,10 +92,7 @@ body {
 }
 
 footer {
-    position: absolute;
     height: 120px;
     left: 40px;
-    right: 40px;
-    bottom: 0px;
     background-color: burlywood;
 }
