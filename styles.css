@@ -34,12 +34,9 @@ body {
 }
 
 .main-part {
-    left: 40px;
-    top: 66px;
-    width: 1200px;
     height: 487px;
-    left: 40px;
-    top: 62px;
+    display: block;
+    width: 458px;
     background-color: #81B3D2;
     background-image: url("../images/landscape/sedona-mounteen.jpg");
 }
