@@ -1,72 +1,94 @@
 body {
     position: relative;
-    width: 1280px;
-    height: 3315px;
     background: #F2F2F2;
+    margin: 0;
     font-family: "PT-sans", sans-serif;
     font-size: 16px;
     line-height: 20px;
-    }
-    .logotriangle {display: block;
-    width: 139px;}
-    .navigation-list {}
-    .navigation-link {font-size: 20px; line-height: 26px ; font-weight: bold;}
-    .user-navigation {  }  
-    .navigation-button {background: #756257;
-        border-radius: 4px; 
-        text-align: center;
-        text-transform: uppercase;
-        color: #FFFFFF;}  
-    header {position: absolute;
-        width: 1060px;
-        height: 66px;
-        left: 40px;
-        top: 0px;
-        background-color: antiquewhite ;
-         }
-    .main-part {
-    position: absolute;
-    width: 1060px;
-    height: 66px;
+}
+
+.logotriangle {
+    display: block;
+    width: 139px;
+}
+
+.navigation-list {}
+
+.navigation-link {
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: bold;
+    color: #000000;
+    text-decoration: none;
+}
+
+.user-navigation {}
+
+.navigation-button {
+    background: #756257;
+    border-radius: 4px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.main-part {
     left: 40px;
     top: 66px;
     width: 1200px;
     height: 487px;
     left: 40px;
     top: 62px;
-    background-color: "none";
-    }
-    .advantageslist {position: absolute;
-        width: 1200px;
-        height: 1535px;
-        left: 40px;
-        top: 832px;
-        background-color: burlywood;}
-    .typography {font: PT Sans;
-        position: relative ;
-        width: 1600px;
-        height: 283.1px;
-        left: 40px;
-        top: 548.9px;
-        background-color: darkgreen;   }
-    .visually-hidden {
-            display: none; }
-    .mailing {position: absolute;
-        width: 1200px;
-        height: 411px;
-        left: 40px;
-        top: 2784px;
-        background-image: url("images/landscape/background-mailing.png")}
-    .hotel-search {position: absolute;
-        width: 1200px;
-        height: 417px;
-        left: 40px;
-        top: 2367px;
-        }    
-        footer {
-        position: absolute;
-        height: 120px;
-        left: 40px;
-        right: 40px;
-        bottom: 0px;
-        background-color: burlywood;}
+    background-color: #81B3D2;
+    background-image: url("../images/landscape/sedona-mounteen.jpg");
+}
+
+.advantageslist {
+    position: absolute;
+    width: 1200px;
+    height: 1535px;
+    left: 40px;
+    top: 832px;
+    background-color: burlywood;
+}
+
+.typography {
+    font: PT Sans;
+    position: relative;
+    width: 1600px;
+    height: 283.1px;
+    left: 40px;
+    top: 548.9px;
+    background-color: darkgreen;
+}
+
+.visually-hidden {
+    display: none;
+}
+
+.mailing {
+    position: absolute;
+    width: 1200px;
+    height: 411px;
+    left: 40px;
+    top: 2784px;
+    background-image: url("images/landscape/background-mailing.png")
+}
+
+.hotel-search {
+    position: absolute;
+    width: 1200px;
+    height: 417px;
+    left: 40px;
+    top: 2367px;
+}
+
+footer {
+    position: absolute;
+    height: 120px;
+    left: 40px;
+    right: 40px;
+    bottom: 0px;
+    background-color: burlywood;
+}
