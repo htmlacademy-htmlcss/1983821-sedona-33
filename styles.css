@@ -31,7 +31,7 @@ body {
         height: 66px;
         left: 40px;
         top: 0px;
-        background-color: blueviolet;
+        background-color: none;
          }
     .main-part {
     position: absolute;
@@ -50,7 +50,7 @@ body {
         height: 1535px;
         left: 40px;
         top: 832px;
-        background-color: rgb(143, 135, 25);}
+        background-color: none;}
     .typography {font: PT Sans;
         position: relative ;
         width: 1600px;
@@ -72,3 +72,10 @@ body {
         left: 40px;
         top: 2367px;
         }    
+        footer {
+        position: absolute;
+        height: 120px;
+        left: 40px;
+        right: 40px;
+        bottom: 0px;
+        background-color: burlywood;}
