@@ -3,33 +3,20 @@ body {
     width: 1280px;
     height: 3315px;
     background: #F2F2F2;
-    font-family: "Arial", sans-serif;
+    font-family: "PT-sans", sans-serif;
     font-size: 16px;
     line-height: 20px;
     }
-    nav {position: absolute;   
-        width: 1060px;
-        height: 66px;
-        left: 40px;
-        top: 0px;
-        align-content: horizontal;
-        background-image: none;}
-    .logotriangle {position: absolute;
-        left: 40px;
-        
-        top: 0%;
-        bottom: 0%;}
-    .navigation-list {position: absolute;
-        left: 15.94%;
-        right: 51.51%;
-        top: -2.86%;
-        bottom: 2.86%;}
-    .user-navigation {position: absolute;
-        left: 75.09%;
-        right: 0%;
-        top: 0%;
-        bottom: 5.71%;
-        }    
+    .logotriangle {display: block;
+    width: 139px;}
+    .navigation-list {}
+    .navigation-link {font-size: 20px; line-height: 26px ; font-weight: bold;}
+    .user-navigation {  }  
+    .navigation-button {background: #756257;
+        border-radius: 4px; 
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;}  
     header {position: absolute;
         width: 1060px;
         height: 66px;
