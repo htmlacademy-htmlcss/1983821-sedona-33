@@ -120,11 +120,17 @@ body {
     text-transform: uppercase;
     color: #FFFFFF;
     text-decoration: none;
-    ;
 }
 
-footer {
+.footer {
     height: 120px;
     left: 40px;
     background-color: rgb(129, 87, 31);
+}
+
+.phone-box {
+    height: 50px;
+    left: 240px;
+    right: 240px;
+    top: calc(50% - 50px/2 + 5px);
 }
