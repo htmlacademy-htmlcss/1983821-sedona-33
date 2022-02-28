@@ -122,6 +122,22 @@ body {
     text-decoration: none;
 }
 
+.button-subscribe {
+    width: 200 px;
+    height: 60 px;
+    left: 840 px;
+    font-size: 20 px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #81B3D2;
+    color: #FFFFFF;
+}
+
+.mail-text {
+    font-size: 18px;
+    line-height: 26px
+}
+
 .footer {
     height: 120px;
     left: 40px;
