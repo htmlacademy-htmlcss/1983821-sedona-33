@@ -44,17 +44,24 @@ body {
 .advantages-list {}
 
 .advantages-lead {
-    font-family: PT Sans;
     font-style: normal;
     font-weight: bold;
-    font-size: 37.125px;
-    line-height: 45px;
+    font-size: 30px;
+    line-height: 36px;
     text-align: center;
     text-transform: uppercase;
 }
 
-.apartment {
-    img ("images/labels/motel.png " width="75px" height="72px" alt="Apartment ")
+.advantage-color-block {
+    background-color: rgba(131, 179, 211, 0.2);
+}
+
+.advantage-color-block-blue {
+    background-color: #83B3D3;
+}
+
+.advantage-color-block-light-blue {
+    background-color: rgba(131, 179, 211, 0.12);
 }
 
 .advantages-description {
