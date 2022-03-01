@@ -41,16 +41,20 @@ body {
     background-image: url("images/landscape/sedona-mounteen.jpg");
 }
 
-.advantages-list {
-    background-color: burlywood;
-    font-size: 18px;
+.advantages-list {}
+
+.advantages-lead {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 37.125px;
+    line-height: 45px;
+    text-align: center;
+    text-transform: uppercase;
 }
 
-.inner-text {
-    font-size: 22px;
-    line-height: 36px;
-    text-align: center;
-    color: #333333;
+.apartment {
+    img ("images/labels/motel.png " width="75px" height="72px" alt="Apartment ")
 }
 
 .advantages-description {
