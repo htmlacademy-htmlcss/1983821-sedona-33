@@ -7,7 +7,9 @@ body {
     line-height: 20px;
 }
 
-.page-header {}
+.page-header {
+    display: grid;
+}
 
 .logotriangle {
     display: block;
@@ -16,12 +18,13 @@ body {
 
 .navigation-list {
     display: grid;
-    grid-template-columns: 139px 115px 115px 115px;
+    grid-template-columns: 139px 100px 100px 100px;
 }
 
 .user-navigation {
     display: grid;
     grid-template-columns: 80px 80px 162px;
+    margin-left: 600px;
 }
 
 .navigation-link {
