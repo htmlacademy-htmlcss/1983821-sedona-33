@@ -7,9 +7,21 @@ body {
     line-height: 20px;
 }
 
+.page-header {}
+
 .logotriangle {
     display: block;
     width: 139px;
+}
+
+.navigation-list {
+    display: grid;
+    grid-template-columns: 139px 115px 115px 115px;
+}
+
+.user-navigation {
+    display: grid;
+    grid-template-columns: 80px 80px 162px;
 }
 
 .navigation-link {
@@ -20,7 +32,8 @@ body {
     text-decoration: none;
 }
 
-.user-navigation {}
+
+/*.user-navigation {}*/
 
 .navigation-button {
     background: #756257;
@@ -115,12 +128,12 @@ body {
     font-size: 20px;
     text-align: center;
     background: #756257;
-    border-radius: 4px;
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
     text-decoration: none;
     line-height: 36px;
+    border-radius: 4px;
 }
 
 .button-subscribe {
