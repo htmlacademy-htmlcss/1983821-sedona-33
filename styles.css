@@ -9,6 +9,8 @@ body {
 
 .page-header {
     display: grid;
+    grid-template-columns: 514px 1fr;
+    width: 1200px;
 }
 
 .logotriangle {
@@ -18,13 +20,13 @@ body {
 
 .navigation-list {
     display: grid;
-    grid-template-columns: 139px 100px 100px 100px;
+    grid-template-columns: 1fr 100px 100px 100px;
 }
 
 .user-navigation {
     display: grid;
     grid-template-columns: 80px 80px 162px;
-    margin-left: 600px;
+    margin-left: 200px;
 }
 
 .navigation-link {
