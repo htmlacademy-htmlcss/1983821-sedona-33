@@ -37,9 +37,6 @@ body {
     text-decoration: none;
 }
 
-
-/*.user-navigation {}*/
-
 .navigation-button {
     background: #756257;
     border-radius: 4px;
@@ -51,11 +48,25 @@ body {
 
 .main-part {
     height: 487px;
-    display: block;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-top: 51.2px;
+    padding-left: 371px;
     width: 1200px;
     background-color: #81B3D2;
     background-image: url("images/landscape/sedona-mounteen.jpg");
 }
+
+
+/*.wellcome-image {
+    width: 458px;
+    height: 363.38px;
+    /*   margin-top: 70px;
+    margin-left: 50px; 
+
+
+}
+*/
 
 .advantages-lead {
     font-style: normal;
