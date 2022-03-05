@@ -89,6 +89,9 @@ body {
     height: 384px;
     flex-direction: row;
     align-items: center;
+    text-align: center;
+    margin-left: 75px;
+    margin-right: 75px;
 }
 
 .advantages-sedona {
@@ -113,6 +116,7 @@ body {
 
 .advantages-description {
     font-size: 24px;
+    /*that si is for capital*/
 }
 
 .advantage1-story {
