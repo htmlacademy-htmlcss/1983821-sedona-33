@@ -112,8 +112,8 @@ body {
     flex-direction: row;
     align-items: center;
     text-align: center;
-    margin-left: 75px;
-    margin-right: 75px;
+    /*  margin-left: 75px;
+    margin-right: 75px; */
 }
 
 .advantages-sedona {
@@ -121,6 +121,10 @@ body {
     height: 384px;
     flex-direction: row;
     align-items: center;
+}
+
+.advantages-group-3-5 {
+    height: 384px;
 }
 
 .advantages-color-block {
