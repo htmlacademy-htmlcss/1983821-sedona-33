@@ -8,9 +8,19 @@ body {
     height: 100%;
 }
 
+main {
+    min-width: 0;
+}
+
 .page-header {
-    display: grid;
-    grid-template-columns: 514px 1fr;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    justify-content: center;
 }
 
 .logotriangle {
@@ -19,14 +29,21 @@ body {
 }
 
 .navigation-list {
-    display: grid;
-    grid-template-columns: 1fr 100px 100px 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    padding: 0;
+    margin: 0;
+    list-style: none;
 }
 
 .user-navigation {
-    display: grid;
-    grid-template-columns: 80px 80px 162px;
-    margin-left: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: right;
+    padding: 0;
+    margin: 0;
+    list-style: none;
 }
 
 .wrapper {
@@ -38,6 +55,17 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: max-content 1fr max-content;
+}
+
+.comtainer {
+    width: 1060;
+    margin: 0 auto;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
 }
 
 .navigation-link {
@@ -59,13 +87,14 @@ body {
 
 .main-part {
     height: 487px;
-    display: grid;
-    grid-template-columns: 1fr;
-    padding-top: 51.2px;
-    padding-left: 371px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     /* background-color: #81B3D2; */
-    /* background-image: url("images/landscape/sedona-mounteen.jpg"); */
-    background-image: url("images/landscape/index-backgroundver2.jpg");
+    background-image: url("images/landscape/sedona-mounteen.jpg");
+    /* background-image: url("images/landscape/index-background.jpg");*/
+    background-size: cover;
+    background-position: center;
 }
 
 
@@ -110,6 +139,9 @@ body {
     display: flex;
     flex-direction: column;
     height: 1535px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
 }
 
 .advantages-attractions {
@@ -118,6 +150,9 @@ body {
     flex-direction: row;
     align-items: center;
     text-align: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
     /*  margin-left: 75px;
     margin-right: 75px; */
 }
@@ -234,18 +269,12 @@ body {
     height: 60px;
 }
 
-.footer {
-    /*  height: 120px;*/
-    left: 40px;
-    background-color: rgb(129, 87, 31);
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    vertical-align: middle;
-}
-
 .footer-social-list {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
 }
 
 .phone-box {
