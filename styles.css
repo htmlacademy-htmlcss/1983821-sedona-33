@@ -10,7 +10,6 @@ body {
 .page-header {
     display: grid;
     grid-template-columns: 514px 1fr;
-    width: 1200px;
 }
 
 .logotriangle {
@@ -27,6 +26,13 @@ body {
     display: grid;
     grid-template-columns: 80px 80px 162px;
     margin-left: 300px;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
 }
 
 .navigation-link {
@@ -52,7 +58,6 @@ body {
     grid-template-columns: 1fr;
     padding-top: 51.2px;
     padding-left: 371px;
-    width: 1200px;
     /* background-color: #81B3D2; */
     /* background-image: url("images/landscape/sedona-mounteen.jpg"); */
     background-image: url("images/landscape/index-backgroundver2.jpg");
@@ -64,13 +69,10 @@ body {
     height: 363.38px;
     /*   margin-top: 70px;
     margin-left: 50px; 
-
-
 }
 */
 
 .advantages-lead-area {
-    width: 1200px;
     height: 283.1px;
     left: 40px;
 }
@@ -103,7 +105,6 @@ body {
     display: flex;
     flex-direction: column;
     height: 1535px;
-    width: 1200px;
 }
 
 .advantages-attractions {
@@ -125,6 +126,7 @@ body {
 
 .advantages-group-3-5 {
     height: 384px;
+    text-align: center;
 }
 
 .advantages-color-block {
@@ -161,7 +163,6 @@ body {
 }
 
 .mailing {
-    width: 1200px;
     height: 411px;
     left: 40px;
     font-size: 30px;
@@ -171,7 +172,6 @@ body {
 }
 
 .hotel-search {
-    width: 1200px;
     height: 417px;
     font-size: 20px;
     line-height: 36px;
@@ -233,7 +233,6 @@ body {
 .footer {
     /*  height: 120px;*/
     left: 40px;
-    width: 1200px;
     background-color: rgb(129, 87, 31);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
