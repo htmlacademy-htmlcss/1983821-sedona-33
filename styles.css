@@ -5,6 +5,7 @@ body {
     font-family: "PT-sans", sans-serif;
     font-size: 18px;
     line-height: 20px;
+    height: 100%;
 }
 
 .page-header {
@@ -33,6 +34,10 @@ body {
     margin: 0 auto;
     background: #FFFFFF;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    min-height: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: max-content 1fr max-content;
 }
 
 .navigation-link {
@@ -212,10 +217,9 @@ body {
 }
 
 .button-subscribe {
-    width: 200 px;
-    height: 60 px;
-    left: 840 px;
-    font-size: 20 px;
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
     line-height: 26px;
     text-align: center;
     vertical-align: middle;
