@@ -15,7 +15,6 @@ main {
 .page-header {
     display: flex;
     flex-direction: row;
-    align-items: center;
     text-align: center;
     padding: 0;
     margin: 0;
@@ -26,6 +25,8 @@ main {
 .logotriangle {
     display: block;
     width: 139px;
+    padding: 0;
+    margin: 0;
 }
 
 .navigation-list {
