@@ -91,21 +91,10 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background-color: #81B3D2; */
     background-image: url("images/landscape/sedona-mounteen.jpg");
-    /* background-image: url("images/landscape/index-background.jpg");*/
     background-size: cover;
     background-position: center;
 }
-
-
-/*.wellcome-image {
-    width: 458px;
-    height: 363.38px;
-    /*   margin-top: 70px;
-    margin-left: 50px; 
-}
-*/
 
 .advantages-lead-area {
     height: 283.1px;
@@ -132,7 +121,6 @@ main {
     font-weight: normal;
     font-size: 22px;
     line-height: 36px;
-    /* or 164% */
     text-align: center;
 }
 
@@ -154,8 +142,6 @@ main {
     padding: 0;
     margin: 0;
     list-style: none;
-    /*  margin-left: 75px;
-    margin-right: 75px; */
 }
 
 .advantages-sedona {
