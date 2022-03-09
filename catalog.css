@@ -1,0 +1,31 @@
+.catalog-hotels-search {
+    background-image: url("images/landscape/catalog-background.png");
+}
+
+.inner-header {
+    width: 1200;
+    height: 408;
+}
+
+.breadcrumbs-catalog-header {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+    margin: 0;
+}
+
+.inner-header-title {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 60px;
+    width: 1200p;
+    height: 68px;
+    margin-top: 39px;
+    margin-left: 21px;
+    padding-top: 38px;
+}
+
+.filter-areas {
+    display: grid;
+    grid-column: 1fr 1fr 1fr 1fr;
+}
