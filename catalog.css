@@ -27,5 +27,20 @@
 
 .filter-areas {
     display: grid;
-    grid-column: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.clear-search-parameters {
+    color: #FFFFFF;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.filter-summary {
+    display: grid;
+}
+
+.filter-parameter-set {
+    background-color: #83B3D3;
+    text-decoration: none;
 }
