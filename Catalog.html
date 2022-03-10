@@ -165,8 +165,8 @@
                         <span class="location-price">от 4000р.</span>
                         <span class="rating">****</span>
                         <span class="rate-value">rate 8,5</span>
-                        <a class="product-card-button button" href="#">Подробнее</a>
-                        <a class="product-card-button button" href="#">В Избранное</a>
+                        <a class="product-card-button-details" href="#">Подробнее</a>
+                        <a class="product-card-button-favorite" href="#">В Избранное</a>
                     </div>
                 </li>
                 <li class="product-card">
@@ -177,8 +177,8 @@
                         <span class="location-price">от 3000р.</span>
                         <span class="rating">***</span>
                         <span class="rate-value">rate 8,9</span>
-                        <a class="product-card-button button" href="#">Подробнее</a>
-                        <a class="product-card-button button" href="#">В Избранное</a>
+                        <a class="product-card-button-details" href="#">Подробнее</a>
+                        <a class="product-card-button-favorite" href="#">В Избранное</a>
                     </div>
                 </li>
                 <li class="product-card">
@@ -189,8 +189,8 @@
                         <span class="location-price">от 3000р.</span>
                         <span class="rating">***</span>
                         <span class="rate-value">rate 8,9</span>
-                        <a class="product-card-button button" href="#">Подробнее</a>
-                        <a class="product-card-button button" href="#">В Избранное</a>
+                        <a class="product-card-button-details" href="#">Подробнее</a>
+                        <a class="product-card-button-favorite" href="#">В Избранное</a>
                     </div>
                 </li>
                 <li class="product-card">
@@ -201,41 +201,49 @@
                         <span class="location-price">от 3000р.</span>
                         <span class="rating">***</span>
                         <span class="rate-value">rate 8,9</span>
-                        <a class="product-card-button button" href="#">Подробнее</a>
-                        <a class="product-card-button button" href="#">В Избранное</a>
+                        <a class="product-card-button-details" href="#">Подробнее</a>
+                        <a class="product-card-button-favorite" href="#">В Избранное</a>
                     </div>
                 </li>
             </ul>
-            <a class="load-button" href="#">ЗАГРУЗИТЬ ЕЩЁ</a>
-            <ul class="pagination">
-                <li class="pagination-item">
+            <a class="card-load-button" href="#">ЗАГРУЗИТЬ ЕЩЁ</a>
+            <section class="card-load-summary">
+
+                <ul class="container pagination-catalog-container">
+                    <!-- <li class="pagination-item">
                     <a class="pagination-link pagination-prev pagination-disabled">
                         <span class="visually-hidden">Предыдущая страница</span>
-                    </a>
-                </li>
-                <li class="pagination-item">
-                    <a class="pagination-link pagination-current">1</a>
-                </li>
-                <li class="pagination-item">
-                    <a class="pagination-link" href="#">2</a>
-                </li>
-                <li class="pagination-item">
-                    <a class="pagination-link" href="#">...</a>
-                </li>
-                <li class="pagination-item">
-                    <a class="pagination-link" href="#">9</a>
-                </li>
-                <li class="pagination-item">
-                    <a class="pagination-link" href="#">10</a>
-                </li>
-                <li class="pagination-item">
+                    </a> 
+                </li> -->
+                    <li class="pagination-item-catalog pagination-current">
+                        <a class="pagination-link">1</a>
+                    </li>
+                    <li class="pagination-item-catalog">
+                        <a class="pagination-link" href="#">2</a>
+                    </li>
+                    <li class="pagination-item-catalog">
+                        <a class="pagination-link" href="#">...</a>
+                    </li>
+                    <li class="pagination-item-catalog">
+                        <a class="pagination-link" href="#">9</a>
+                    </li>
+                    <li class="pagination-item-catalog">
+                        <a class="pagination-link" href="#">10</a>
+                    </li>
+                    <!-- <li class="pagination-item">
                     <a class="pagination-link pagination-next" href="#">
                         <span class="visually-hidden">Следующая страница</span>
                     </a>
-                </li>
-            </ul>
-
-
+                </li>-->
+                </ul>
+                <label class="catalog-label">Hotels on page
+                <select class="catalog-hotel-on-page" aria-label="Гостиниц на странице">
+                <option value="four">4</option>
+                <option value="six">6</option>
+                <option value="nine">9</option>
+              </select>
+              </label>
+            </section>
             <section class="mailing-catalog">
                 <h2 class="mailing-title">ПОДПИШИТЕСЬ НА РАССЫЛКУ</h2>
                 Только полезная информация и никакого спама, честное бойскаутское!

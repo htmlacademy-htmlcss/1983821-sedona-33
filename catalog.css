@@ -111,3 +111,53 @@
     margin-bottom: 10px;
     margin-right: 18px;
 }
+
+.card-load-button {
+    background-color: #83B3D3;
+    display: flex;
+    color: #FFFFFF;
+    width: auto;
+    height: 60px;
+    font-size: 20px;
+    line-height: 26px;
+    padding-top: 17px;
+    justify-content: center;
+    vertical-align: middle;
+    margin-left: 290px;
+    margin-right: 290px;
+}
+
+.card-load-summary {
+    width: 1200px;
+    margin-left: 71px;
+    margin-right: 71px;
+}
+
+.pagination-catalog-container {
+    height: 85px;
+    width: 460px;
+    margin-left: 71px;
+    display: flex;
+    flex-direction: row;
+}
+
+.pagination-item-catalog {
+    height: 55px;
+    width: 55px;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #83B3D3;
+    color: #FFFFFF;
+}
+
+.pagination-item-current {
+    height: 55px;
+    width: 55px;
+    background-color: #F2F2F2;
+    color: black;
+}
+
+.catalog-hotel-on-page {
+    width: fit-content;
+    height: auto;
+}
