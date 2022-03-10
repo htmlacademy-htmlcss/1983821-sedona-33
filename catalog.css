@@ -1,10 +1,13 @@
 .catalog-hotels-search {
     background-image: url("images/landscape/catalog-background.png");
+    height: 408px;
+    width: 1200px;
 }
 
 .inner-header {
     width: 1200;
     height: 408;
+    padding-left: 71px;
 }
 
 .breadcrumbs-catalog-header {
@@ -25,9 +28,16 @@
     padding-top: 38px;
 }
 
+.catalog-filter-list {
+    list-style: none;
+}
+
 .filter-areas {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    font-family: "PT-sans";
+    list-style: none;
+    padding-left: 71px;
 }
 
 .clear-search-parameters {
@@ -36,11 +46,49 @@
     text-decoration: none;
 }
 
-.filter-summary {
+.filter-activate {
     display: grid;
+    text-align: center;
 }
 
 .filter-parameter-set {
     background-color: #83B3D3;
-    text-decoration: none;
+    vertical-align: middle;
+}
+
+.mailing-catalog {
+    height: 411px;
+    left: 40px;
+    font-size: 30px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.filter-output-area {
+    margin-top: 40px;
+    display: flex;
+    margin-left: 20px;
+}
+
+.search-total {
+    font-family: "PT-sans";
+    font-size: 30px;
+    text-align: center;
+    width: 407px;
+    margin-left: 61px;
+}
+
+.catalog-select-control {
+    text-align: center;
+    vertical-align: top;
+    height: 49px;
+    width: 287px;
+    margin-left: 100px;
+}
+
+.output-type {
+    display: grid;
+    grid-template-columns: 56px 56px 56px;
+    list-style: none;
+    margin-left: 8px;
 }
