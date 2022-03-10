@@ -38,6 +38,7 @@
     font-family: "PT-sans";
     list-style: none;
     padding-left: 71px;
+    color: #FFFFFF;
 }
 
 .clear-search-parameters {
@@ -91,4 +92,22 @@
     grid-template-columns: 56px 56px 56px;
     list-style: none;
     margin-left: 8px;
+}
+
+.location-list {
+    display: flex;
+    margin-left: 71px;
+    margin-right: 72px;
+    width: 1074px;
+    flex-wrap: wrap;
+    height: 960px;
+    list-style: none;
+    background-color: aqua;
+}
+
+.product-card {
+    width: 340px;
+    height: 438px;
+    margin-bottom: 10px;
+    margin-right: 18px;
 }
