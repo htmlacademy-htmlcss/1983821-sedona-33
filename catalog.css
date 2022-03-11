@@ -41,6 +41,14 @@
     color: #FFFFFF;
 }
 
+.price-limits {
+    display: flex;
+    width: 286px;
+    height: 48px;
+}
+
+.price-input {}
+
 .clear-search-parameters {
     color: #FFFFFF;
     font-size: 18px;
@@ -129,7 +137,6 @@
 
 .card-load-summary {
     width: 1200px;
-    margin-left: 71px;
     margin-right: 71px;
     margin-top: 60px;
     display: flex;
@@ -174,10 +181,17 @@
 }
 
 .catalog-label {
-    margin-left: 400px;
+    margin-left: 100px;
+    width: 175px;
+    height: 23px;
+    font-size: 18px;
+    justify-content: center;
+    vertical-align: middle;
 }
 
 .catalog-hotel-on-page {
-    width: fit-content;
-    height: auto;
+    width: 160px;
+    height: 48px;
+    margin-right: 71px;
+    align-content: flex-end;
 }
