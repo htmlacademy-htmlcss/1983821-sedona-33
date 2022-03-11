@@ -196,6 +196,7 @@ main {
     font-size: 30px;
     line-height: 36px;
     color: #FFFFFF;
+    justify-content: center;
     background-image: url("images/landscape/background-mailing.png");
 }
 
