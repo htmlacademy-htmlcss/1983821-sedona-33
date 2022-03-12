@@ -31,6 +31,7 @@ main {
     margin: 0;
     list-style: none;
     justify-content: flex-start;
+    align-items: center;
 }
 
 .user-navigation {
@@ -66,8 +67,9 @@ main {
 
 .header-container {
     display: flex;
-    margin: 0 auto 20px;
+    margin: 0 auto;
     justify-content: space-between;
+    align-items: center;
 }
 
 .navigation-link {
@@ -85,6 +87,13 @@ main {
     text-transform: uppercase;
     color: #FFFFFF;
     text-decoration: none;
+    display: flex;
+    width: 160px;
+    height: 37px;
+    vertical-align: middle;
+    padding-top: 9px;
+    justify-content: center;
+    font-size: 16px;
 }
 
 .main-part {
@@ -105,15 +114,13 @@ main {
 .advantages-lead {
     font-style: normal;
     font-weight: bold;
-    font-size: 37.125px;
+    font-size: 30px;
     line-height: 45px;
     text-align: center;
     text-transform: uppercase;
-    margin-left: 194.5px;
-    width: 891px;
-    height: 99.39px;
+    margin: 0 auto 30px;
+    max-width: 720px;
     left: 194.5px;
-    /* or 120% */
     text-align: center;
 }
 
@@ -159,6 +166,9 @@ main {
 
 .advantages-color-block {
     background-color: rgba(131, 179, 211, 0.2);
+    width: 400px;
+    height: 384px;
+    vertical-align: middle;
 }
 
 .advantages-color-block-blue {
@@ -168,6 +178,10 @@ main {
 
 .advantages-color-block-light-blue {
     background-color: rgba(131, 179, 211, 0.12);
+}
+
+.advantages-list-item {
+    vertical-align: middle;
 }
 
 .advantages-description {
@@ -248,17 +262,6 @@ main {
 }
 
 .navigation-button-hotel-search {
-    /*  width: 575px;
-    height: 60px;
-    font-size: 20px;
-    text-align: center;
-    background-color: #756257;
-    text-align: center;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    text-decoration: none;
-    line-height: 36px;
-    border-radius: 4px; */
     background-color: #756257D3;
     display: flex;
     color: #FFFFFF;
@@ -303,8 +306,6 @@ main {
 }
 
 .phone-box {
-    height: 50px;
-    text-align: center;
     top: calc(50% - 50px/2 + 5px);
     font-size: 40px;
 }

@@ -87,7 +87,7 @@
 .output-type {
     display: flex;
     list-style: none;
-    margin-left: 0 0 0 80px;
+    margin: 0 0 0 80px;
 }
 
 .location-list {
