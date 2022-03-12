@@ -2,7 +2,6 @@
 <html lang="ru">
 
 <head>
-    <!-- check for synchroniыation-->
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="catalog.css">
     <meta charset="utf-8">
@@ -43,10 +42,9 @@
         </header>
         <main>
             <section class="catalog-hotels-search">
-                <div class="hotels-search-2blocks">
-                    <!-- <div class="container"> -->
+                <div class="container">
                     <div class="inner-header">
-                        <h1 class="inner-header-title">ГОСТИНИЦЫ СЕДОНЫ</h1>
+                        <h1 class="inner-header-title">Гостиницы Седоны</h1>
                         <ul class="breadcrumbs-catalog-header">
                             <li class="breadcrumbs-item">
                                 <a class="breadcrumbs-link" href="index.html">Главная</a>
@@ -125,104 +123,103 @@
                                 <a class="clear-search-parameters" href="catalog.html">сбросить</a>
                             </fieldset>
                         </div>
-                        <!--   <a href="catalog.html"><span>обновить</span></a> -->
                     </form>
                 </div>
             </section>
-            <div class="filter-output-area">
-                <p class="search-total"><b>НАЙДЕНО ГОСТИНИЦ: 38</b></p>
-                <select class="catalog-select-control" aria-label="Сортировка">
-                            <option value="cheap">Сначала дешёвые</option>
-                            <option value="popular">Сначала популярные</option>
-                            <option value="expensive">Сначала дорогие</option>
-                          </select>
-                <ul class="output-type">
-                    <li class="output-item">
-                        <label class="control">
-                              <input class="control-input visually-hidden" type="radio" name="output-type" value="thumbnail" checked>
-                              Крт
-                            </label>
-                        <li class="output-item">
-                            <label class="control">
-                               <input class="control-input visually-hidden" type="radio" name="output-type" value="slideshow">
-                               sld 
-                              </label>
-                        </li>
-                        <li class="output-item">
-                            <label class="control">
-                               <input class="control-input visually-hidden" type="radio" name="output-type" value="list">
-                               спс
-                              </label>
-                        </li>
+            <section class="catalog-results">
+                <div class="container">
+                    <div class="filter-output-area">
+                        <p class="search-total"><b>НАЙДЕНО ГОСТИНИЦ: 38</b></p>
+                        <select class="catalog-select-control" aria-label="Сортировка">
+                                    <option value="cheap">Сначала дешёвые</option>
+                                    <option value="popular">Сначала популярные</option>
+                                    <option value="expensive">Сначала дорогие</option>
+                                  </select>
+                        <ul class="output-type">
+                            <li class="output-item">
+                                <label class="control">
+                                      <input class="control-input visually-hidden" type="radio" name="output-type" value="thumbnail" checked>
+                                      Крт
+                                    </label>
+                                <li class="output-item">
+                                    <label class="control">
+                                       <input class="control-input visually-hidden" type="radio" name="output-type" value="slideshow">
+                                       sld 
+                                      </label>
+                                </li>
+                                <li class="output-item">
+                                    <label class="control">
+                                       <input class="control-input visually-hidden" type="radio" name="output-type" value="list">
+                                       спс
+                                      </label>
+                                </li>
+                        </ul>
+                    </div>
+
+                </div>
+                <ul class="location-list">
+                    <li class="product-card">
+                        <div class="product-card-link">
+                            <img class="product-card-image" src="images/hotels/amataresort.png" alt="amata picture">
+                            <h3 class="product-card-title">Amara Resort & Spa</h3>
+                            <div class="hotel-card-details">
+                                <span class="location-type">гостиница</span>
+                                <span class="location-price">от 4000р.</span>
+                                <a class="product-card-button-details" href="#">Подробнее</a>
+                                <a class="product-card-button-favorite" href="#">В Избранное</a>
+                                <span class="rating">****</span>
+                                <span class="rate-value">rate 8,5</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="product-card">
+                        <div class="product-card-link">
+                            <img class="product-card-image" src="images/hotels/desertquail.png" alt="qual inn picture">
+                            <h3 class="product-card-title">Desert Qual Inn</h3>
+                            <div class="hotel-card-details">
+                                <span class="location-type">гостиница</span>
+                                <span class="location-price">от 3000р.</span>
+
+                                <a class="product-card-button-details" href="#">Подробнее</a>
+                                <a class="product-card-button-favorite" href="#">В Избранное</a>
+                                <span class="rating">***</span>
+                                <span class="rate-value">rate 8,9</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="product-card">
+                        <div class="product-card-link">
+                            <img class="product-card-image" src="images/hotels/villasdiablo.png" alt="villas diable picture">
+                            <h3 class="product-card-title">Villas Qual Inn</h3>
+                            <div class="hotel-card-details">
+                                <span class="location-type">гостиница</span>
+                                <span class="location-price">от 3000р.</span>
+
+                                <a class="product-card-button-details" href="#">Подробнее</a>
+                                <a class="product-card-button-favorite" href="#">В Избранное</a>
+                                <span class="rating">***</span>
+                                <span class="rate-value">rate 8,9</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="product-card">
+                        <div class="product-card-link">
+                            <img class="product-card-image" src="images/hotels/greenTree.png" alt="green tree picture">
+                            <h3 class="product-card-title">Green Tree</h3>
+                            <div class="hotel-card-details">
+                                <span class="location-type">гостиница</span>
+                                <span class="location-price">от 3000р.</span>
+                                <a class="product-card-button-details" href="#">Подробнее</a>
+                                <a class="product-card-button-favorite" href="#">В Избранное</a>
+                                <span class="rating">**</span>
+                                <span class="rate-value">rate 9,2</span>
+                            </div>
+                        </div>
+                    </li>
                 </ul>
-            </div>
-            <ul class="location-list">
-                <li class="product-card">
-                    <div class="product-card-link">
-                        <img class="product-card-image" src="images/hotels/amataresort.png" alt="amata picture">
-                        <h3 class="product-card-title">Amara Resort & Spa</h3>
-                        <div class="hotel-card-details">
-                            <span class="location-type">гостиница</span>
-                            <span class="location-price">от 4000р.</span>
-                            <span class="rating">****</span>
-                            <span class="rate-value">rate 8,5</span>
-                            <a class="product-card-button-details" href="#">Подробнее</a>
-                            <a class="product-card-button-favorite" href="#">В Избранное</a>
-                        </div>
-                    </div>
-                </li>
-                <li class="product-card">
-                    <div class="product-card-link">
-                        <img class="product-card-image" src="images/hotels/desertquail.png" alt="qual inn picture">
-                        <h3 class="product-card-title">Desert Qual Inn</h3>
-                        <div class="hotel-card-details">
-                            <span class="location-type">гостиница</span>
-                            <span class="location-price">от 3000р.</span>
-                            <span class="rating">***</span>
-                            <span class="rate-value">rate 8,9</span>
-                            <a class="product-card-button-details" href="#">Подробнее</a>
-                            <a class="product-card-button-favorite" href="#">В Избранное</a>
-                        </div>
-                    </div>
-                </li>
-                <li class="product-card">
-                    <div class="product-card-link">
-                        <img class="product-card-image" src="images/hotels/villasdiablo.png" alt="villas diable picture">
-                        <h3 class="product-card-title">Villas Qual Inn</h3>
-                        <div class="hotel-card-details">
-                            <span class="location-type">гостиница</span>
-                            <span class="location-price">от 3000р.</span>
-                            <span class="rating">***</span>
-                            <span class="rate-value">rate 8,9</span>
-                            <a class="product-card-button-details" href="#">Подробнее</a>
-                            <a class="product-card-button-favorite" href="#">В Избранное</a>
-                        </div>
-                    </div>
-                </li>
-                <li class="product-card">
-                    <div class="product-card-link">
-                        <img class="product-card-image" src="images/hotels/greenTree.png" alt="green tree picture">
-                        <h3 class="product-card-title">Green Tree</h3>
-                        <div class="hotel-card-details">
-                            <span class="location-type">гостиница</span>
-                            <span class="location-price">от 3000р.</span>
-                            <span class="rating">***</span>
-                            <span class="rate-value">rate 8,9</span>
-                            <a class="product-card-button-details" href="#">Подробнее</a>
-                            <a class="product-card-button-favorite" href="#">В Избранное</a>
-                        </div>
-                    </div>
-                </li>
-            </ul>
-            <a class="card-load-button" href="#">ЗАГРУЗИТЬ ЕЩЁ</a>
-            <section>
+                <a class="card-load-button" href="#">ЗАГРУЗИТЬ ЕЩЁ</a>
                 <div class="card-load-summary">
                     <ul class="container pagination-catalog-container">
-                        <!-- <li class="pagination-item">
-                    <a class="pagination-link pagination-prev pagination-disabled">
-                        <span class="visually-hidden">Предыдущая страница</span>
-                    </a> 
-                </li> -->
                         <li class="pagination-item-catalog pagination-item-current">
                             <a class="pagination-link-button">1</a>
                         </li>
@@ -240,11 +237,6 @@
                             <li class="pagination-item-catalog">
                                 <a class="pagination-link-button" href="#">10</a>
                             </li>
-                            <!-- <li class="pagination-item">
-                    <a class="pagination-link pagination-next" href="#">
-                        <span class="visually-hidden">Следующая страница</span>
-                    </a>
-                </li>-->
                     </ul>
                     <label class="catalog-label">Отелей на странице </label>
                     <select class="catalog-hotel-on-page" aria-label="Гостиниц на странице">
@@ -252,9 +244,9 @@
                 <option value="six">6</option>
                 <option value="nine">9</option>
                  </select>
-                    <!--
-                    </label> -->
                 </div>
+
+
             </section>
             <section class="mailing-catalog">
                 <h2 class="mailing-title">ПОДПИШИТЕСЬ НА РАССЫЛКУ</h2>
