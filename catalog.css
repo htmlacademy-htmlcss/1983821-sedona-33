@@ -17,7 +17,7 @@
     color: #FFFFFF;
     font-size: 60px;
     line-height: 78px;
-    margin: 0 0 5;
+    margin: 0 0 5px;
     font-weight: 700;
 }
 
@@ -28,7 +28,6 @@
 .filter-areas {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    font-family: "PT-sans";
     list-style: none;
     color: #FFFFFF;
 }
@@ -55,26 +54,26 @@
     vertical-align: middle;
 }
 
+.catalog-results {
+    padding-top: 44px;
+    margin-bottom: 73px;
+}
+
 .mailing-catalog {
-    height: 411px;
-    margin-left: 40px;
-    font-size: 30px;
-    line-height: 36px;
-    color: black;
+    padding-bottom: 140px;
+    text-align: center;
 }
 
 .filter-output-area {
-    margin-top: 40px;
     display: flex;
-    margin-left: 20px;
+    margin-bottom: 73px;
+    align-items: center;
 }
 
 .search-total {
-    font-family: "PT-sans";
     font-size: 30px;
-    text-align: center;
-    width: 407px;
-    margin-left: 61px;
+    line-height: 39px;
+    margin-right: 20px;
 }
 
 .catalog-select-control {
@@ -82,29 +81,23 @@
     vertical-align: top;
     height: 49px;
     width: 287px;
-    margin-left: 100px;
+    margin-left: auto;
 }
 
 .output-type {
-    display: grid;
-    grid-template-columns: 56px 56px 56px;
+    display: flex;
     list-style: none;
-    margin-left: 8px;
+    margin-left: 0 0 0 80px;
 }
 
 .location-list {
-    display: flex;
-    margin-left: 71px;
-    margin-right: 72px;
-    width: 1074px;
-    flex-wrap: wrap;
-    height: 960px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 0 54px;
     list-style: none;
-    background-color: navajowhite;
+    grid-column-gap: 18px;
+    grid-row-gap: 10px;
 }
-
-
-/* favorite and details */
 
 .product-card-button-favorite {
     background-color: #83B3D3;
@@ -147,10 +140,7 @@
 }
 
 .product-card {
-    width: 340px;
-    height: 438px;
-    margin-bottom: 10px;
-    margin-right: 18px;
+    padding: 20px;
 }
 
 .card-load-button {
@@ -164,24 +154,21 @@
     padding-top: 17px;
     justify-content: center;
     vertical-align: middle;
-    margin-left: 290px;
-    margin-right: 290px;
+    margin: auto;
     text-decoration: none;
 }
 
 .card-load-summary {
-    width: 1200px;
-    margin-right: 71px;
-    margin-top: 60px;
+    margin-top: 30px;
+    padding-top: 30px;
     display: flex;
+    border-top: 1px solid #E6E6E6;
 }
 
 .pagination-catalog-container {
-    height: 85px;
-    width: 460px;
-    margin-left: 0;
+    margin: 0;
+    padding: 0;
     display: flex;
-    flex-direction: row;
 }
 
 .pagination-item-catalog {
@@ -214,17 +201,13 @@
 }
 
 .catalog-label {
-    margin-left: 100px;
-    width: 175px;
-    height: 23px;
+    margin-left: auto;
+    line-height: 23px;
     font-size: 18px;
-    justify-content: center;
-    vertical-align: middle;
 }
 
 .catalog-hotel-on-page {
     width: 160px;
     height: 48px;
-    margin-right: 71px;
-    align-content: flex-end;
+    margin-left: 50px;
 }

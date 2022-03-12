@@ -206,19 +206,19 @@ main {
 }
 
 .mailing-title {
-    width: 720px;
-    height: 36px;
-    margin-top: 58px;
+    margin: 0 auto 46px;
+    line-heighT: 36px;
+    max-width: 720px;
     font-size: 30px;
     text-align: center;
 }
 
 .mailing-text {
-    width: 720px;
-    height: 52px;
-    margin-top: 29px;
+    margin: 0 auto 46px;
+    line-height: 26px;
     font-size: 22px;
     text-align: center;
+    width: 720px;
 }
 
 .hotel-search {
