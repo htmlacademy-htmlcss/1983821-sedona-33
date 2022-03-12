@@ -2,6 +2,8 @@
     background-image: url("images/landscape/catalog-background.png");
     padding-top: 35px;
     padding-bottom: 86px;
+    background-position: center;
+    background-size: cover;
 }
 
 .breadcrumbs-catalog-header {
