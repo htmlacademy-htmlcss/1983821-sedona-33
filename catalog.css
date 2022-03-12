@@ -47,8 +47,6 @@
     height: 48px;
 }
 
-.price-input {}
-
 .clear-search-parameters {
     color: #FFFFFF;
     font-size: 18px;
@@ -113,6 +111,53 @@
     background-color: aqua;
 }
 
+
+/* favorite and details */
+
+.product-card-button-favorite {
+    background-color: #83B3D3;
+    display: flex;
+    color: #83B3D3;
+    width: 140px;
+    height: 37px;
+    font-size: 16px;
+    line-height: 18px;
+    /*  padding-top: 17px; */
+    justify-content: center;
+    vertical-align: middle;
+    /*   margin-left: 290px;
+    margin-right: 290px; */
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 16px;
+}
+
+.product-card-button-details {
+    background-color: #756257;
+    display: flex;
+    color: #83B3D3;
+    width: 137px;
+    height: 37px;
+    font-size: 16px;
+    line-height: 18px;
+    /*  padding-top: 17px; */
+    justify-content: center;
+    vertical-align: middle;
+    /*   margin-left: 290px;
+    margin-right: 290px; */
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 16px;
+}
+
+.hotel-card-details {
+    display: grid;
+    grid-template-columns: 133px 140px;
+    margin-top: 16px;
+}
+
 .product-card {
     width: 340px;
     height: 438px;
@@ -133,6 +178,7 @@
     vertical-align: middle;
     margin-left: 290px;
     margin-right: 290px;
+    text-decoration: none;
 }
 
 .card-load-summary {
