@@ -28,8 +28,7 @@
 .filter-areas {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    list-style: none;
-    color: #FFFFFF;
+    align-items: left;
 }
 
 .price-limits {
