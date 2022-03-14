@@ -23,12 +23,20 @@
 
 .catalog-filter-list {
     list-style: none;
+    justify-content: left;
+}
+
+.catalog-filter-item {
+    justify-content: left;
+}
+
+.filter-infrastructure {
+    justify-content: left;
 }
 
 .filter-areas {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    align-items: left;
+    display: flex;
+    justify-items: left;
 }
 
 .price-limits {

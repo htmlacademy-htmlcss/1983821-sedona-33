@@ -170,9 +170,6 @@ main {
     width: 400px;
     height: 384px;
     vertical-align: middle;
-    /*  align-items: center;
-    text-align: center;
-*/
 }
 
 .advantages-color-block-blue {
@@ -190,7 +187,6 @@ main {
 
 .advantages-description {
     font-size: 24px;
-    /*that si is for capital*/
 }
 
 .advantage1-story {
@@ -213,7 +209,6 @@ main {
     width: 1200px;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
-    /* left: 40px; */
     font-size: 30px;
     vertical-align: middle;
     line-height: 36px;
