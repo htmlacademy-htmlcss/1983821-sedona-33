@@ -288,6 +288,10 @@ main {
     color: #FFFFFF;
 }
 
+.label-subscription {
+    border: none;
+}
+
 .mail-text {
     size: 18px;
     line-height: 26px;
@@ -307,6 +311,8 @@ main {
 .phone-box {
     top: calc(50% - 50px/2 + 5px);
     font-size: 40px;
+    width: 720px;
+    text-align: center;
 }
 
 .hotels-search {
