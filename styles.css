@@ -109,6 +109,8 @@ main {
 .advantages-lead-area {
     height: 283.1px;
     left: 40px;
+    align-items: center;
+    margin-top: 63px;
 }
 
 .advantages-lead {
@@ -155,7 +157,6 @@ main {
 .advantages-sedona {
     display: flex;
     height: 384px;
-    flex-direction: row;
     align-items: center;
 }
 
@@ -163,6 +164,7 @@ main {
     height: 384px;
     text-align: center;
     vertical-align: middle;
+    justify-content: middle;
 }
 
 .advantages-color-block {
@@ -183,6 +185,7 @@ main {
 
 .advantages-list-item {
     vertical-align: middle;
+    justify-content: center;
 }
 
 .advantages-description {
@@ -232,6 +235,7 @@ main {
     font-size: 22px;
     text-align: center;
     width: 720px;
+    height: 60px;
 }
 
 .hotel-search {
@@ -286,10 +290,10 @@ main {
     vertical-align: middle;
     background-color: #81B3D2;
     color: #FFFFFF;
-}
-
-.label-subscription {
-    border: none;
+    margin-left: 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-left: 0;
 }
 
 .mail-text {
@@ -298,6 +302,10 @@ main {
     width: 600px;
     height: 60px;
     background-color: #F2F2F2;
+    border-style: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-right: 0;
 }
 
 .footer-social-list {
@@ -319,4 +327,8 @@ main {
     height: 408px;
     padding: 0;
     margin: 0;
+}
+
+.label-subscription {
+    margin-right: 0;
 }
