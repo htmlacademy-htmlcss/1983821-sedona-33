@@ -40,6 +40,11 @@ main {
     margin: 0;
     list-style: none;
     justify-content: flex-end;
+    align-items: right;
+}
+
+.user-navigation:last-child {
+    margin-right: 0;
 }
 
 .wrapper {
@@ -78,6 +83,14 @@ main {
     font-weight: bold;
     color: #000000;
     text-decoration: none;
+}
+
+.header-navigation-item {
+    margin-right: 34px;
+}
+
+.header-user-navigation-item {
+    margin-right: 17px;
 }
 
 .navigation-button {
@@ -314,6 +327,10 @@ main {
     padding: 0;
     margin: 0;
     list-style: none;
+}
+
+.footer-social-item {
+    margin-right: 19px;
 }
 
 .phone-box {
