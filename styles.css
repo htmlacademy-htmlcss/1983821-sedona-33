@@ -349,3 +349,11 @@ main {
 .label-subscription {
     margin-right: 0;
 }
+
+.rate-value {
+    background-size: inherit;
+    padding: 10px;
+    margin-left: -15px;
+    text-align: center;
+    background-color: #F2F2F2;
+}
