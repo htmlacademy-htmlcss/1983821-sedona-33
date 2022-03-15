@@ -171,6 +171,7 @@ main {
     display: flex;
     height: 384px;
     align-items: center;
+    margin: 0;
 }
 
 .advantages-group-3-5 {
@@ -185,6 +186,10 @@ main {
     width: 400px;
     height: 384px;
     vertical-align: middle;
+}
+
+.advantages-item-3-5 {
+    padding-top: 9px;
 }
 
 .advantages-color-block-blue {
@@ -203,11 +208,12 @@ main {
 
 .advantages-description {
     font-size: 24px;
+    width: fit-content;
 }
 
 .advantage1-story {
     width: 400px;
-    margin: 90px;
+    margin: 120px;
     font-size: 18px;
     text-align: center;
     justify-content: center;
