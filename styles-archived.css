@@ -1,27 +1,11 @@
-@font-face {
-    font-family: "PT Sans";
-    font-style: normal;
-    font-weight: 400;
-    src: url("fonts/ptsans-400.woff2") format("woff2");
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "PT Sans";
-    font-style: normal;
-    font-weight: 700;
-    src: url("fonts/ptsans-700.woff2") format("woff2");
-    font-display: swap;
-}
-
 body {
     position: relative;
     background: #F2F2F2;
     margin: 0;
+    font-family: "PT-sans", sans-serif;
     font-size: 18px;
     line-height: 20px;
     height: 100%;
-    font-family: "PT Sans", sans-serif;
 }
 
 main {
@@ -35,12 +19,10 @@ main {
 }
 
 .logotriangle {
-    position: relative;
-    z-index: 1;
     display: block;
     width: 139px;
     padding: 0;
-    margin: 0 47px -5px 0;
+    margin: 0;
 }
 
 .navigation-list {
@@ -103,36 +85,12 @@ main {
     text-decoration: none;
 }
 
-.navigation-link.active {
-    position: relative;
-}
-
-.navigation-link.active::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: -20px;
-    width: 100%;
-    height: 2px;
-    background-color: #756257;
-}
-
-.navigation-link:hover {}
-
-.navigation-link:active {}
-
-.navigation-link:focus {}
-
 .header-navigation-item {
     margin-right: 34px;
 }
 
-.navigation-favorite {
-    position: relative;
-}
-
 .header-user-navigation-item {
-    margin-left: 17px;
+    margin-right: 17px;
 }
 
 .navigation-button {
@@ -228,8 +186,6 @@ main {
     width: 400px;
     height: 384px;
     vertical-align: middle;
-    display: flex;
-    flex-direction: column;
 }
 
 .advantages-item-3-5 {
@@ -250,26 +206,19 @@ main {
     justify-content: center;
 }
 
-.advantages-list-item-wide {
-    vertical-align: middle;
-    justify-content: center;
-    display: flex;
-    height: 384px;
-    align-items: center;
-    margin: 0;
-}
-
 .advantages-description {
     font-size: 24px;
     width: fit-content;
 }
 
 .advantage1-story {
+    width: 400px;
+    margin: 120px;
     font-size: 18px;
     text-align: center;
     justify-content: center;
-    padding-left: 50px;
-    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
 }
 
 .advantages-item {
@@ -314,11 +263,7 @@ main {
     height: 417px;
     font-size: 20px;
     line-height: 36px;
-    display: flex;
-    flex-direction: column;
     text-align: center;
-    vertical-align: middle;
-    justify-content: center;
 }
 
 .hotel-search-text {
