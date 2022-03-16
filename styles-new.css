@@ -206,6 +206,15 @@ main {
     justify-content: center;
 }
 
+.advantages-list-item-wide {
+    vertical-align: middle;
+    justify-content: center;
+    display: flex;
+    height: 384px;
+    align-items: center;
+    margin: 0;
+}
+
 .advantages-description {
     font-size: 24px;
     width: fit-content;
@@ -213,12 +222,12 @@ main {
 
 .advantage1-story {
     width: 400px;
-    margin: 120px;
     font-size: 18px;
     text-align: center;
     justify-content: center;
     display: flex;
     flex-direction: column;
+    vertical-align: middle;
 }
 
 .advantages-item {
