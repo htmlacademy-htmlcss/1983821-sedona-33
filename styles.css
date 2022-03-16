@@ -103,6 +103,18 @@ main {
     text-decoration: none;
 }
 
+.navigation-favorite-count {
+    /*  width: 19.05px;
+    height: 13px; */
+    top: 17.5px;
+    left: 1024.47px;
+    border-radius: 4px;
+    fill: solid;
+    font-size: 10px;
+    background-color: #7DB54F;
+    position: absolute;
+}
+
 .navigation-link.active {
     position: relative;
 }
@@ -410,6 +422,13 @@ main {
 
 .footer-social-item {
     margin-right: 19px;
+}
+
+.academy-logo {
+    width: 134px;
+    padding: 0;
+    height: auto;
+    margin: 0 52px -7px 0;
 }
 
 .phone-box {
