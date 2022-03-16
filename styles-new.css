@@ -221,13 +221,13 @@ main {
 }
 
 .advantage1-story {
-    width: 400px;
     font-size: 18px;
     text-align: center;
     justify-content: center;
     display: flex;
     flex-direction: column;
-    vertical-align: middle;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .advantages-item {
