@@ -186,6 +186,8 @@ main {
     width: 400px;
     height: 384px;
     vertical-align: middle;
+    display: flex;
+    flex-direction: column;
 }
 
 .advantages-item-3-5 {
@@ -224,8 +226,6 @@ main {
     font-size: 18px;
     text-align: center;
     justify-content: center;
-    display: flex;
-    flex-direction: column;
     padding-left: 50px;
     padding-right: 50px;
 }
@@ -272,7 +272,11 @@ main {
     height: 417px;
     font-size: 20px;
     line-height: 36px;
+    display: flex;
+    flex-direction: column;
     text-align: center;
+    vertical-align: middle;
+    justify-content: center;
 }
 
 .hotel-search-text {
