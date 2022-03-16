@@ -129,11 +129,17 @@ main {
     background-color: #756257;
 }
 
-.navigation-link:hover {}
+.navigation-link:hover {
+    color: #BF3535;
+}
 
-.navigation-link:active {}
+.navigation-link:active {
+    color: #BF3535;
+}
 
-.navigation-link:focus {}
+.navigation-link:focus {
+    color: #BF3535;
+}
 
 .header-navigation-item {
     margin-right: 34px;
