@@ -114,8 +114,8 @@ main {
 
 .navigation-favorite-count {
     position: absolute;
-    top: -2px;
-    right: -10px;
+    top: -12px;
+    right: -16px;
     z-index: 1;
     display: flex;
     align-items: center;
@@ -130,11 +130,6 @@ main {
     text-align: center;
     letter-spacing: -0.1em;
     color: #FFFFFF;
-    /*  x: 24px;
-y: 15px;
-w: 20px;
-h: 20px;
-radius: 10px; */
 }
 
 .navigation-link.active {
@@ -202,9 +197,10 @@ radius: 10px; */
     line-height: 20px;
 }
 
-.navigation-favorite {
+
+/* .navigation-favorite {
     position: relative;
-}
+} */
 
 .main-part {
     height: 487px;
