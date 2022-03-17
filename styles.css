@@ -296,15 +296,11 @@ main {
     ;
 }
 
-.advantages-list-item {
-    vertical-align: middle;
-    justify-content: center;
-}
-
 .advantages-list-item-wide {
     vertical-align: middle;
     justify-content: center;
     display: flex;
+    flex-direction: row;
     /*    height: 384px; */
     align-items: center;
     margin: 0;
