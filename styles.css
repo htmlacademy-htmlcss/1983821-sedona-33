@@ -252,6 +252,10 @@ main {
     vertical-align: middle;
 }
 
+.advantages-color-block-white {
+    background-color: #FFFFFF;
+}
+
 .advantages-color-block-blue {
     background-color: #83B3D3;
     color: #FFFFFF;
@@ -310,12 +314,12 @@ main {
     padding-top: 94px;
 }
 
-.mailing-text {
+.mail-text {
     margin: 0 auto 46px;
     line-height: 26px;
     font-size: 22px;
     text-align: center;
-    width: 720px;
+    width: 600px;
     height: 60px;
 }
 
@@ -364,8 +368,6 @@ main {
     padding-top: 17px;
     justify-content: center;
     vertical-align: middle;
-    /*  margin-left: 312px;
-    margin-right: 3130px; */
     text-decoration: none;
     border-radius: 10px;
 }
@@ -379,10 +381,11 @@ main {
     vertical-align: middle;
     background-color: #81B3D2;
     color: #FFFFFF;
-    margin-left: 0;
+    margin: 0;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
-    margin-left: 0;
+    margin-left: -9px;
+    border: none;
 }
 
 .mail-text {
