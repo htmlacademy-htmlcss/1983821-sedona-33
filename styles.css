@@ -250,6 +250,7 @@ main {
     width: 400px;
     height: 384px;
     vertical-align: middle;
+    justify-items: center;
 }
 
 .advantages-color-block-blue {
