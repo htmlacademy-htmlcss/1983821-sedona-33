@@ -305,7 +305,7 @@ main {
     vertical-align: middle;
     justify-content: center;
     display: flex;
-    height: 384px;
+    /*    height: 384px; */
     align-items: center;
     margin: 0;
 }
@@ -321,6 +321,7 @@ main {
     justify-content: center;
     padding-left: 50px;
     padding-right: 50px;
+    vertical-align: middle;
 }
 
 .advantages-item {
