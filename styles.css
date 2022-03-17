@@ -156,7 +156,7 @@ main {
 }
 
 .navigation-link:hover {
-    color: #BF3535;
+    color: #756257;
 }
 
 .navigation-link:active {
@@ -167,7 +167,7 @@ main {
     color: #BF3535;
 }
 
-.navigation-button:focus {
+.navigation-button:hover {
     color: green;
 }
 
@@ -280,8 +280,6 @@ main {
     width: 400px;
     height: 384px;
     vertical-align: middle;
-    display: flex;
-    flex-direction: column;
 }
 
 .advantages-item-3-5 {
@@ -295,6 +293,7 @@ main {
 
 .advantages-color-block-light-blue {
     background-color: rgba(131, 179, 211, 0.12);
+    ;
 }
 
 .advantages-list-item {
