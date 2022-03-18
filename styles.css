@@ -299,7 +299,6 @@ main {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     list-style: none;
-    padding-left: -10px;
 }
 
 .advantages-list-item-wide {
