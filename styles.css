@@ -108,13 +108,13 @@ main {
     margin-left: 23px;
 }
 
-.header-user-navigation-item:last-of-typy {
+.header-user-navigation-item:last-of-type {
     margin-left: 32px;
 }
 
 .navigation-favorite-count {
     position: absolute;
-    top: -11px;
+    top: -5px;
     right: -14px;
     z-index: 1;
     display: flex;
@@ -171,12 +171,16 @@ main {
     color: none;
 }
 
-.header-navigation-item {
-    margin-right: 34px;
+.navigation-button:active {
+    color: none;
 }
 
-.header-user-navigation-item {
-    margin-left: 17px;
+.navigation-button:focus {
+    color: none;
+}
+
+.header-navigation-item {
+    margin-right: 34px;
 }
 
 .navigation-button {
@@ -198,8 +202,21 @@ main {
     line-height: 20px;
 }
 
+.main-part::after {
+    content: "";
+    position: absolute;
+    background-image: url("images/labels/divider.svg");
+    height: 57px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    bottom: 0;
+}
+
 .main-part {
-    height: 487px;
+    padding: 52px 0 79px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -319,6 +336,12 @@ main {
     text-align: center;
     padding-top: 94px;
 }
+
+
+/*.haus-picture {
+    position: relative;
+    left: 20px;
+}*/
 
 .mail-text {
     margin: 0 auto 46px;
