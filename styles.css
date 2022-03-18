@@ -168,15 +168,17 @@ main {
 }
 
 .navigation-button:hover {
-    color: none;
+    background-color: #61504B;
 }
 
 .navigation-button:active {
-    color: none;
+    color: #ffffff 0.3;
 }
 
 .navigation-button:focus {
-    color: none;
+    border-color: #83B3D3;
+    border-style: solid;
+    border-width: 3px;
 }
 
 .header-navigation-item {
