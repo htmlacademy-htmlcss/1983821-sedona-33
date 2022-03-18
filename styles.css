@@ -291,7 +291,15 @@ main {
 
 .advantages-list-item-full {
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-column: 1/-1;
+}
+
+.advantages-sublist {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    list-style: none;
+    padding-left: -10px;
 }
 
 .advantages-list-item-wide {
@@ -299,16 +307,9 @@ main {
     justify-content: center;
     display: flex;
     flex-direction: row;
-    /*    height: 384px; */
     align-items: center;
     width: 1200px;
     margin: 0;
-}
-
-.advantages-sublist {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    list-style: none;
 }
 
 .advantages-description {
