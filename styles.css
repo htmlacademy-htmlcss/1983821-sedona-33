@@ -133,10 +133,6 @@ main {
     box-sizing: border-box;
 }
 
-.navigation-link.active {
-    position: relative;
-}
-
 .navigation-link.active::after {
     content: "";
     position: absolute;
@@ -161,24 +157,24 @@ main {
 
 .navigation-link:active {
     color: rgba(117, 98, 87, 0.3);
+    outline: none;
+    position: relative;
 }
 
-.navigation-link:focus {
-    color: #BF3535;
-}
+.navigation-link:focus {}
 
 .navigation-button:hover {
     background-color: #61504B;
 }
 
-.navigation-button:active {
-    color: #ffffff 0.3;
+.navigation-button:focus {
+    outline: 3px solid #83B3D3;
+    background-color: #615048;
 }
 
-.navigation-button:focus {
-    border-color: #83B3D3;
-    border-style: solid;
-    border-width: 3px;
+.navigation-button:active {
+    color: rgba(255, 255, 255, 0.3);
+    background-color: #615048;
 }
 
 .header-navigation-item {
@@ -225,6 +221,11 @@ main {
     background-image: url("images/landscape/sedona-mounteen.jpg");
     background-size: cover;
     background-position: center;
+    position: relative;
+}
+
+.advantages {
+    padding-top: 63px;
 }
 
 .advantages-lead-area {
@@ -238,14 +239,12 @@ main {
     font-style: normal;
     font-weight: bold;
     font-size: 30px;
-    line-height: 45px;
+    line-height: 36px;
     text-align: center;
     text-transform: uppercase;
-    margin: 0 auto 30px;
+    margin: 0 auto 31px;
     max-width: 720px;
-    left: 194.5px;
     text-align: center;
-    margin-top: 44.17px;
 }
 
 .inner-text {
@@ -260,42 +259,47 @@ main {
 .advantages-list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /*    height: 1535px;  now all items feed the area without empty spaces between*/
     padding: 0;
     margin: 0;
     list-style: none;
 }
 
+.advantages-image-right {
+    display: block;
+    grid-column: 2/4;
+    object-fit: contain;
+}
+
+.advantages-image-left {
+    display: block;
+    grid-column: 1/3;
+    object-fit: contain;
+}
+
 .advantages-color-block {
     background-color: rgba(131, 179, 211, 0.2);
     vertical-align: middle;
-    width: 400px;
+    max-width: 400px;
     height: 384px;
     justify-content: center;
     vertical-align: middle;
+    ma
 }
 
 .advantages-color-block-white {
     background-color: #FFFFFF;
-    /*   width: 400px;
-    height: 384px; */
 }
 
 .advantages-color-block-blue {
     background-color: #83B3D3;
     color: #FFFFFF;
-    /*  width: 400px; */
 }
 
 .advantages-color-block-light-blue {
     background-color: rgba(131, 179, 211, 0.12);
-    /*   width: 400px;
-    height: 384px;*/
 }
 
 .advantages-list-item {
-    width: 400px;
-    height: 384px;
     vertical-align: middle;
 }
 
@@ -307,27 +311,15 @@ main {
 
 .advantages-sublist {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    padding: 0;
+    margin: 0;
+    grid-column: 1/-1;
     list-style: none;
-    /* margin-left: -15px; */
 }
 
 .advantages-description {
     font-size: 18px;
-    /* width: fit-content; */
 }
-
-
-/*.advantage1-story {
-    font-size: 18px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-left: 50px;
-    padding-right: 50px;
-    vertical-align: baseline;
-} */
 
 .mailing {
     height: 411px;
