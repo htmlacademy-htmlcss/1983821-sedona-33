@@ -276,7 +276,11 @@ main {
 }
 
 .advantages-name {
-    margin-top: 98px;
+    margin: 0 0 30px;
+}
+
+.advantages-number {
+    margin: 0 0 30px;
 }
 
 .advantages-color-block {
@@ -287,8 +291,7 @@ main {
     justify-content: center;
     vertical-align: middle;
     text-align: center;
-    padding-top: 97px;
-    padding-bottom: 80px;
+    padding: 98px 75px 80px;
 }
 
 .advantages-color-block-white {
@@ -304,10 +307,7 @@ main {
     background-color: rgba(131, 179, 211, 0.12);
 }
 
-.advantages-list-item {
-    vertical-align: middle;
-    padding-top: 0;
-}
+.advantages-list-item {}
 
 .advantages-list-item-full {
     display: grid;
@@ -326,6 +326,7 @@ main {
 
 .advantages-description {
     font-size: 18px;
+    margin: 0;
 }
 
 .mailing {
