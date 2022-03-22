@@ -59,7 +59,7 @@
     display: grid;
     width: 287px;
     grid-template-columns: 1fr 1fr;
-    margin: 0 -20px 0;
+    margin: 0 0 15px;
     padding: 0;
     background: none;
 }
