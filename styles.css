@@ -226,12 +226,13 @@ main {
     padding-top: 63px;
 }
 
-.advantages-lead-area {
+
+/*.advantages-lead-area {
     height: 283.1px;
     left: 40px;
     align-items: center;
     margin-top: 63px;
-}
+}*/
 
 .advantages-lead {
     font-style: normal;
@@ -274,6 +275,10 @@ main {
     object-fit: contain;
 }
 
+.advantages-name {
+    margin-top: 98px;
+}
+
 .advantages-color-block {
     background-color: rgba(131, 179, 211, 0.2);
     vertical-align: middle;
@@ -299,7 +304,7 @@ main {
 
 .advantages-list-item {
     vertical-align: middle;
-    padding-top: 86px;
+    padding-top: 0;
 }
 
 .advantages-list-item-full {
@@ -344,17 +349,11 @@ main {
     padding-top: 94px;
 }
 
-
-/*.haus-picture {
-    position: relative;
-    left: 20px;
-}*/
-
 .mail-text {
     margin: 0 auto 46px;
     line-height: 26px;
-    font-size: 22px;
-    text-align: center;
+    font-size: 18px;
+    text-align: left;
     width: 600px;
     height: 60px;
 }
@@ -435,6 +434,7 @@ main {
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     margin-right: 0;
+    justify-content: left;
 }
 
 .footer-social-list {
