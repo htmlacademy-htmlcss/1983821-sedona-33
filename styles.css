@@ -418,6 +418,7 @@ main {
     background-color: #81B3D2;
     color: #FFFFFF;
     margin: 0;
+    margin-top: 2px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     margin-left: -9px;

@@ -22,11 +22,12 @@
     font-weight: 700;
 }
 
-.catalog-filter-list {
+
+/*.catalog-filter-list {
     list-style: none;
     justify-content: left;
     margin-left: -20px;
-}
+}*/
 
 .catalog-filter-item,
 .accomodation-filter-item,
@@ -35,12 +36,12 @@
     justify-content: left;
     margin-left: -20px;
     padding-left: -20px;
+    list-style: none;
 }
 
 .filter-infrastructure,
 .filter-accomodation,
-.price-limits,
-.filter-activate {
+.price-limits {
     justify-content: left;
     border: none;
     margin-left: -20px;
@@ -50,18 +51,25 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-items: left;
+    list-style: none;
+    border: none;
 }
 
 .price-limits {
     display: flex;
     width: 286px;
     height: 48px;
-    margin-left: -20px;
+    margin-left: -60px;
+    margin-top: -10px;
+    background: none;
 }
 
 .price-input {
     width: 143.5px;
     height: 48px;
+    background: none;
+    border-color: white;
+    color: white;
 }
 
 .clear-search-parameters {
@@ -78,6 +86,7 @@
 .filter-parameter-set {
     background-color: #83B3D3;
     vertical-align: middle;
+    margin-top: 20px;
 }
 
 .catalog-results {
