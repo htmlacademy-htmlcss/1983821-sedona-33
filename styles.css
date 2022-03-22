@@ -277,10 +277,15 @@ main {
 
 .advantages-name {
     margin: 0 0 30px;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
 }
 
 .advantages-number {
     margin: 0 0 30px;
+    font-size: 18px;
+    line-height: 21px;
 }
 
 .advantages-color-block {
@@ -315,6 +320,14 @@ main {
     background-position: 50% 90px;
 }
 
+.advantages-sublist-item-meal {
+    padding-top: 184px;
+    background-image: url("images/labels/meal.svg");
+    background-size: 74px 70px;
+    background-repeat: no-repeat;
+    background-position: 50% 90px;
+}
+
 .advantages-list-item-full {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -332,6 +345,7 @@ main {
 
 .advantages-description {
     font-size: 18px;
+    line-height: 21px;
     margin: 0;
 }
 
@@ -370,10 +384,8 @@ main {
 .hotel-search {
     font-size: 20px;
     line-height: 36px;
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    display: block;
     text-align: center;
-    vertical-align: middle;
     justify-content: center;
     padding-top: 90px;
     padding-bottom: 93px;
@@ -381,6 +393,9 @@ main {
 
 .hotel-search-title {
     margin: 0 0 30px;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: bold;
 }
 
 .hotel-search-text {
@@ -417,6 +432,7 @@ main {
     vertical-align: middle;
     text-decoration: none;
     border-radius: 10px;
+    margin: 0 auto;
 }
 
 .button-subscribe {
