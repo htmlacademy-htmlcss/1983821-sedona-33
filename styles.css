@@ -282,11 +282,13 @@ main {
 .advantages-color-block {
     background-color: rgba(131, 179, 211, 0.2);
     vertical-align: middle;
-    max-width: 400px;
-    height: 384px;
+    /*   max-width: 400px;
+    height: 384px; */
     justify-content: center;
     vertical-align: middle;
     text-align: center;
+    padding-top: 97px;
+    padding-bottom: 80px;
 }
 
 .advantages-color-block-white {

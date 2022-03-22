@@ -57,10 +57,9 @@
 
 .price-limits {
     display: flex;
-    width: 286px;
+    width: 287px;
     height: 48px;
-    margin-left: -60px;
-    margin-top: -10px;
+    margin-left: -40px;
     background: none;
 }
 
@@ -70,6 +69,7 @@
     background: none;
     border-color: white;
     color: white;
+    margin: -30px;
 }
 
 .clear-search-parameters {
@@ -81,6 +81,7 @@
 .filter-activate {
     display: grid;
     text-align: center;
+    border: none;
 }
 
 .filter-parameter-set {
