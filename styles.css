@@ -226,14 +226,6 @@ main {
     padding-top: 63px;
 }
 
-
-/*.advantages-lead-area {
-    height: 283.1px;
-    left: 40px;
-    align-items: center;
-    margin-top: 63px;
-}*/
-
 .advantages-lead {
     font-style: normal;
     font-weight: bold;
@@ -291,8 +283,6 @@ main {
 .advantages-color-block {
     background-color: rgba(131, 179, 211, 0.2);
     vertical-align: middle;
-    /*   max-width: 400px;
-    height: 384px; */
     justify-content: center;
     vertical-align: middle;
     text-align: center;
