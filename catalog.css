@@ -30,7 +30,8 @@
 
 .catalog-filter-item,
 .accomodation-filter-item,
-.catalog-filter-list {
+.catalog-filter-list,
+.price-limits {
     justify-content: left;
     margin-left: -20px;
     padding-left: -20px;
@@ -55,11 +56,11 @@
     display: flex;
     width: 286px;
     height: 48px;
-    margin-left: -25px;
+    margin-left: -20px;
 }
 
-.price-ibputs {
-    width: 143px;
+.price-input {
+    width: 143.5px;
     height: 48px;
 }
 
