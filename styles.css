@@ -309,9 +309,10 @@ main {
 
 .advantages-sublist-item-home {
     padding-top: 184px;
-    background-image: url("images/labels/motel.svg");
+    background-image: url("images/labels/motel.png");
     background-size: 75px 72px;
     background-repeat: no-repeat;
+    background-position: 50% 90px;
 }
 
 .advantages-list-item-full {
@@ -366,8 +367,7 @@ main {
     height: 60px;
 }
 
-.hotels-search {
-    height: 417px;
+.hotel-search {
     font-size: 20px;
     line-height: 36px;
     display: grid;
@@ -375,16 +375,19 @@ main {
     text-align: center;
     vertical-align: middle;
     justify-content: center;
+    padding-top: 90px;
+    padding-bottom: 93px;
 }
 
 .hotel-search-title {
-    margin-top: 91px;
+    margin: 0 0 30px;
 }
 
 .hotel-search-text {
     font-size: 22px;
     line-height: 26px;
     color: #333333;
+    margin: 0 0 56px;
 }
 
 .visually-hidden {
@@ -400,7 +403,7 @@ main {
     border: 0;
 }
 
-.navigation-button-hotel-search {
+.hotel-search-button {
     background-color: #756257D3;
     display: flex;
     color: #FFFFFF;
