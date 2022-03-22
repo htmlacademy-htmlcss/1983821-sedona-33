@@ -312,8 +312,16 @@ main {
 
 .advantages-sublist-item-meal {
     padding-top: 184px;
-    background-image: url("images/labels/meal.svg");
+    background-image: url("images/labels/hamburger.png");
     background-size: 74px 70px;
+    background-repeat: no-repeat;
+    background-position: 50% 90px;
+}
+
+.advantages-sublist-item-souvenir {
+    padding-top: 184px;
+    background-image: url("images/labels/souvenir.svg");
+    background-size: 64px 75.95px;
     background-repeat: no-repeat;
     background-position: 50% 90px;
 }
