@@ -56,20 +56,26 @@
 }
 
 .price-limits {
-    display: flex;
+    display: grid;
     width: 287px;
-    height: 48px;
-    margin-left: -40px;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 -20px 0;
+    padding: 0;
     background: none;
 }
 
 .price-input {
-    width: 143.5px;
     height: 48px;
     background: none;
     border-color: white;
     color: white;
-    margin: -30px;
+    margin: 20px 0 0;
+    padding-left: 0px;
+}
+
+.control {
+    margin: 0;
+    padding: 0;
 }
 
 .clear-search-parameters {
@@ -82,12 +88,23 @@
     display: grid;
     text-align: center;
     border: none;
+    justify-content: center;
 }
 
 .filter-parameter-set {
     background-color: #83B3D3;
     vertical-align: middle;
-    margin-top: 20px;
+    margin-top: 35px;
+    margin-left: 70px;
+    color: #FFFFFF;
+    height: 48px;
+    width: 160px;
+}
+
+.clear-search-parameters {
+    /* margin-left: 45px;*/
+    margin: 30px 50px 0;
+    padding-left: 30px;
 }
 
 .catalog-results {
