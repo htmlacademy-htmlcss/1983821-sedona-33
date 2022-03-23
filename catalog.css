@@ -77,11 +77,19 @@
     color: white;
     margin: 20px 0 0;
     padding-left: 0px;
+    justify-content: space-between;
+    font-size: 18px;
+    width: 143px;
 }
 
 .control {
     margin: 0;
     padding: 0;
+}
+
+.control-input {
+    font-size: 18px;
+    line-height: 23.21px;
 }
 
 .control-subtitle {
