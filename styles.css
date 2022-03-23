@@ -368,6 +368,11 @@ main {
     padding-top: 94px;
 }
 
+.mailing-text {
+    font-size: 22px;
+    line-height: 26px;
+}
+
 .mail-text {
     margin: 0 auto 15px;
     line-height: 26px;

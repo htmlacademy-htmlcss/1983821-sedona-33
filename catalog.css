@@ -113,7 +113,7 @@
 .clear-search-parameters {
     /* margin-left: 45px;*/
     margin: 30px 50px 0;
-    padding-left: 30px;
+    padding-left: 50px;
 }
 
 .catalog-results {
@@ -173,6 +173,7 @@
     width: 140px;
     height: 37px;
     font-size: 16px;
+    font-weight: bold;
     line-height: 18px;
     justify-content: center;
     text-align: center;
@@ -196,6 +197,7 @@
     width: 133px;
     height: 37px;
     font-size: 16px;
+    font-weight: bold;
     line-height: 18px;
     text-align: center;
     justify-content: center;
@@ -231,6 +233,7 @@
     justify-content: center;
     vertical-align: middle;
     margin: auto;
+    font-weight: bold;
     text-decoration: none;
 }
 
