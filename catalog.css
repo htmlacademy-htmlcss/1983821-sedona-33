@@ -249,15 +249,8 @@
 }
 
 .pagination-item-catalog {
-    /*  display: flex; */
-    height: 55px;
-    width: 55px;
+    /*  display: flex;*/
     align-items: center;
-    vertical-align: middle;
-    padding-top: 25px;
-    text-decoration: none;
-    justify-content: center;
-    text-align: center;
     background-color: #83B3D3;
     margin-right: 8px;
     list-style: none;
@@ -266,10 +259,11 @@
 .pagination-link-button {
     text-align: center;
     display: flex;
+    flex-direction: column;
     text-decoration: none;
     vertical-align: middle;
     height: 55px;
-    width: 55px;
+    min-width: 55px;
     margin-right: 8px;
     /*   padding-left: 25px;*/
     font-size: 20px;
@@ -282,6 +276,10 @@
 .pagination-item-current {
     background-color: #F2F2F2;
     color: black;
+}
+
+.pagination-link-number {
+    padding-top: 25px;
 }
 
 .catalog-label {

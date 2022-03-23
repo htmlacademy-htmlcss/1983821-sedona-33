@@ -475,6 +475,19 @@ main {
     margin-right: 19px;
 }
 
+.social-item-link:hover {
+    color: #68A2CA;
+}
+
+.social-item-link:focus {
+    color: #68A2CA;
+    outline: #756257;
+}
+
+.social-item-link:active {
+    color: #68A2CA 0.3;
+}
+
 .academy-logo {
     width: 134px;
     padding: 0;
