@@ -32,13 +32,6 @@
     font-weight: 700;
 }
 
-
-/*.catalog-filter-list {
-    list-style: none;
-    justify-content: left;
-    margin-left: -20px;
-}*/
-
 .catalog-filter-item,
 .accomodation-filter-item,
 .catalog-filter-list,
@@ -63,6 +56,8 @@
     justify-items: left;
     list-style: none;
     border: none;
+    color: #FFFFFF;
+    font-size: 18px;
 }
 
 .price-limits {
@@ -86,6 +81,10 @@
 .control {
     margin: 0;
     padding: 0;
+}
+
+.control-subtitle {
+    font-size: 20px;
 }
 
 .clear-search-parameters {
