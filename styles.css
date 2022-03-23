@@ -481,7 +481,9 @@ main {
 
 .social-item-link:focus {
     color: #68A2CA;
-    outline: #756257;
+    outline-style: double;
+    outline-width: 3px;
+    outline-color: #0a1924;
 }
 
 .social-item-link:active {
