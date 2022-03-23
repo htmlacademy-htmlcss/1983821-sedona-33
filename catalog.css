@@ -14,6 +14,16 @@
     list-style: none;
 }
 
+.breadcrumbs-item {
+    margin-right: 8.5px;
+}
+
+.breadcrumbs-link {
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 21px;
+}
+
 .inner-header-title {
     color: #FFFFFF;
     font-size: 60px;
@@ -143,6 +153,10 @@
     margin: 0 0 0 80px;
 }
 
+.output-item {
+    margin-right: 8px;
+}
+
 .location-list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -236,8 +250,8 @@
 
 .pagination-item-catalog {
     /*  display: flex; */
-    /* height: 55px;
-    width: 55px; */
+    height: 55px;
+    width: 55px;
     align-items: center;
     vertical-align: middle;
     padding-top: 25px;
@@ -266,11 +280,8 @@
 }
 
 .pagination-item-current {
-    height: 55px;
-    width: 55px;
     background-color: #F2F2F2;
     color: black;
-    margin-right: 8px;
 }
 
 .catalog-label {
