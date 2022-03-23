@@ -235,24 +235,34 @@
 }
 
 .pagination-item-catalog {
-    height: 55px;
-    width: 55px;
+    /*  display: flex; */
+    /* height: 55px;
+    width: 55px; */
+    align-items: center;
+    vertical-align: middle;
+    padding-top: 25px;
     text-decoration: none;
     justify-content: center;
     text-align: center;
     background-color: #83B3D3;
-    color: #FFFFFF;
     margin-right: 8px;
     list-style: none;
 }
 
 .pagination-link-button {
     text-align: center;
+    display: flex;
     text-decoration: none;
     vertical-align: middle;
     height: 55px;
     width: 55px;
     margin-right: 8px;
+    /*   padding-left: 25px;*/
+    font-size: 20px;
+    justify-content: center;
+    line-height: 26px;
+    font-weight: bold;
+    color: #FFFFFF;
 }
 
 .pagination-item-current {
