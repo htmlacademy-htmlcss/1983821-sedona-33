@@ -9,8 +9,9 @@
 .breadcrumbs-catalog-header {
     display: flex;
     align-items: flex-start;
-    padding: 20px;
+    padding: 0px;
     margin: 0;
+    margin-bottom: 48px;
     list-style: none;
 }
 
@@ -33,22 +34,17 @@
     font-weight: 700;
 }
 
-.catalog-filter-item,
-.accomodation-filter-item,
+.filter-infrastructure,
+.filter-accomodation,
 .catalog-filter-list,
-.price-limits {
+.price-limits-area {
     justify-content: left;
     margin-left: -20px;
     padding-left: -20px;
     list-style: none;
-}
-
-.filter-infrastructure,
-.filter-accomodation,
-.price-limits {
-    justify-content: left;
     border: none;
-    margin-left: -20px;
+    display: flex;
+    flex-direction: column;
 }
 
 .filter-areas {
@@ -61,7 +57,15 @@
     font-size: 18px;
 }
 
-.price-limits {
+.catalog-filter-item,
+.accomodation-filter-item {
+    height: 23px;
+    margin-bottom: 13px;
+    justify-content: left;
+    margin-left: -20px;
+}
+
+.price-limits-input {
     display: grid;
     width: 287px;
     grid-template-columns: 1fr 1fr;
