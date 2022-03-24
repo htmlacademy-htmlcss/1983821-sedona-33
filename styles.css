@@ -453,6 +453,21 @@ main {
     padding: 18px 34px;
 }
 
+.button-subscribe:hover {
+    background-color: #68A2CA;
+}
+
+.button-subscribe:focus {
+    background-color: #68A2CA;
+    border-width: 3px;
+    border-color: #756257;
+    border-style: dashed;
+}
+
+.button-subscribe:active {
+    background-color: #68A2CA 0.2;
+}
+
 .label-subscription {
     display: block;
     flex-grow: 1;
@@ -496,8 +511,8 @@ main {
 
 .social-item-link:focus {
     color: #68A2CA;
-    outline-style: double;
-    outline-width: 3px;
+    outline-width: 1px;
+    outline-style: dashed;
     outline-color: #0a1924;
 }
 
@@ -520,6 +535,22 @@ main {
     text-align: center;
     text-decoration: none;
     color: #000000;
+}
+
+.phone-box:hover {
+    font-weight: 400;
+    color: #756257;
+}
+
+.phone-box:focus {
+    outline-style: dotted;
+    outline-width: 2px;
+    outline-color: lightblue;
+}
+
+.phone-box:active {
+    color: #756257 0.3;
+    font-weight: 200;
 }
 
 .hotels-search {
