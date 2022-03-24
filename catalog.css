@@ -79,7 +79,7 @@
     background: none;
     border-color: white;
     color: white;
-    margin: 20px 0 0;
+    margin: 20px 0 10px;
     padding-left: 0px;
     justify-content: space-between;
     font-size: 18px;
@@ -125,8 +125,10 @@
 
 .clear-search-parameters {
     /* margin-left: 45px;*/
-    margin: 30px 50px 0;
-    padding-left: 50px;
+    margin: 20px 45px 0;
+    padding-left: 25px;
+    height: 23px;
+    width: 160px;
 }
 
 .catalog-results {
