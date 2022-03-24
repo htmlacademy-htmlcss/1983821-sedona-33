@@ -466,15 +466,16 @@ main {
     border-radius: 10px 0px 0px 10px;
     width: 100%;
     border: 0;
-    justify-content: left;
+    justify-content: center;
     padding: 18px 22px;
 }
 
-.form-mail-ubscription {
+.form-mail-subscription {
     display: flex;
     width: 800px;
     justify-content: center;
     vertical-align: middle;
+    margin-left: 200px;
 }
 
 .footer-social-list {
