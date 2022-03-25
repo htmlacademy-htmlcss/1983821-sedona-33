@@ -413,6 +413,10 @@
         left: 4px;
     } */
     
+    .mailing-catalog {
+        color: black;
+    }
+    
     .raiting-stars {
         display: flex;
     }
