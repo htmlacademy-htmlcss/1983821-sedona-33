@@ -160,7 +160,6 @@
     }
     
     .mailing-catalog {
-        padding-bottom: 140px;
         text-align: center;
     }
     
@@ -199,8 +198,8 @@
     .output-type {
         display: flex;
         list-style: none;
-        margin: 0 0 0 80px;
         padding: 0;
+        margin: 0 0 0 74px;
     }
     
     .output-item {
@@ -210,11 +209,11 @@
     .location-list {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        margin: 0 0 54px;
         list-style: none;
         grid-column-gap: 18px;
         grid-row-gap: 10px;
         padding: 0;
+        margin: 0 0 26px;
     }
     
     .product-card-button-favorite {
@@ -370,10 +369,9 @@
     }
     
     .card-load-summary {
-        margin-top: 30px;
         padding-top: 30px;
         display: flex;
-        border-top: 1px solid #E6E6E6;
+        align-items: center;
     }
     
     .pagination-catalog-container {
@@ -383,10 +381,8 @@
     }
     
     .pagination-item-catalog {
-        /*  display: flex;*/
         align-items: center;
-        background-color: #83B3D3;
-        margin-right: 8px;
+        margin-right: 9px;
         list-style: none;
     }
     
@@ -398,13 +394,14 @@
         vertical-align: middle;
         height: 55px;
         min-width: 55px;
-        margin-right: 8px;
+        background-color: #83B3D3;
         /*   padding-left: 25px;*/
         font-size: 20px;
         justify-content: center;
         line-height: 26px;
         font-weight: bold;
         color: #FFFFFF;
+        border-radius: 4px;
     }
     
     .pagination-item-current {
@@ -425,13 +422,27 @@
     .catalog-hotel-on-page {
         width: 160px;
         height: 48px;
-        margin-left: 50px;
+        margin-left: 58px;
+        width: 160px;
+        padding-left: 13px;
+        font-family: inherit;
+        font-size: inherit;
+        line-height: inherit;
+        color: #333333;
+        background-color: #FFFFFF;
+        border: 2px solid #E6E6E6;
+        border-radius: 4px;
+        padding: 10px 17px 11px;
+        background-image: url(../images/catalog/catalog-select-arrow.svg);
+        background-repeat: no-repeat;
+        background-position: right 20px center;
+        appearance: none;
+        box-sizing: border-box;
     }
     
     .control {
         position: relative;
         display: block;
-        padding-left: 39px;
     }
     
     .control-mark {

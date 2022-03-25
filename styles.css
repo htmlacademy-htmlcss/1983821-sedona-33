@@ -395,8 +395,7 @@ main {
     display: block;
     text-align: center;
     justify-content: center;
-    padding-top: 90px;
-    padding-bottom: 93px;
+    margin: 90px 0 93px;
 }
 
 .hotel-search-title {
@@ -453,7 +452,6 @@ main {
     color: #FFFFFF;
     border-radius: 0px 10px 10px 0px;
     border: none;
-    height: 60px;
     font-size: 20px;
     padding: 18px 34px;
     line-height: 26px;
@@ -507,7 +505,7 @@ main {
 }
 
 .footer-social-item {
-    margin-right: 19px;
+    margin-right: 30px;
 }
 
 .social-item-link:hover {
@@ -559,7 +557,7 @@ main {
 }
 
 .hotel-search {
-    height: 408px;
+    padding: 90px 0 93px;
     padding: 0;
     margin: 0;
 }
