@@ -130,13 +130,12 @@
                 <p class="hotel-search-text">Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в Седоне.</p>
                 <a class="hotel-search-button" href="catalog.html ">поиск гостиницы в седоне</a>
             </section>
-            <section class="mailing ">
+            <section class="mailing">
                 <h2 class="mailing-title ">ПОДПИШИТЕСЬ НА РАССЫЛКУ</h2>
                 <p class="mailing-text ">Только полезная информация и никакого спама, <br> честное бойскаутское!</p>
                 <form class="form-mail-subscription" action="https://echo.htmlacademy.ru/courses" method="post" enctype="multipart/form-data">
-                    <label for="emailfield " class="label-subscription">
-                    <input type="email " id="emailfield" name="e-mailfield" class="mail-text" value="Ваш e-mail">
-                    </label>
+                    <label for="emailfield " class="label-subscription visually-hidden">подписка</label>
+                    <input type="email" id="emailfield" name="e-mailfield" class="mail-text" value="Ваш e-mail">
                     <button class="button-subscribe " type="submit ">Подписаться</button>
                 </form>
             </section>
@@ -199,6 +198,15 @@
                 </a>
             </div>
         </footer>
+    </div>
+    <a href="#openModal">Открыть модальное окно</a>
+    <div id="openModal" class="modalDialog">
+        <div>
+            <a href="#close" title="Закрыть" class="close">X</a>
+            <h2>Модальное окно</h2>
+            <p>Пример простого модального окна, которое может быть создано с использованием CSS3.</p>
+            <p>Его можно использовать в широком диапазоне, начиная от вывода сообщений и заканчивая формой регистрации.</p>
+        </div>
     </div>
 </body>
 

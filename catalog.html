@@ -17,13 +17,13 @@
                         <li><img class="logotriangle" src="images/labels/logotriangle.png" height="70" width="139" alt="логотип седоны">
                         </li>
                         <li class="header-navigation-item">
-                            <a class="navigation-link active" href="index.html">Главная</a>
+                            <a class="navigation-link" href="index.html">Главная</a>
                         </li>
                         <li class="header-navigation-item">
                             <a class="navigation-link" href="#">О Седоне</a>
                         </li>
                         <li class="headr-navigation-item">
-                            <a class="navigation-link" href="catalog.html">Гостиницы</a>
+                            <a class="navigation-link active" href="catalog.html">Гостиницы</a>
                         </li>
                     </ul>
                 </nav>
@@ -99,23 +99,26 @@
                                 <ul class="catalog-filter-list">
                                     <li class="catalog-filter-item">
                                         <label class="control">
-                                 <input class="control-input" type="checkbox" name="swimming-pool" checked>
-                                  Бассейн<br>
-                                       </label>
+                                            <input class="visually-hidden control-input" type="checkbox" name="infrastructure" value="Бассейн" checked>
+                                            <span class="control-mark control-mark-checkbox"></span>
+                                            <span class="control-label">Бассейн</span>
+                                          </label>
                                     </li>
                                     <!--li><br></li-->
                                     <li class="catalog-filter-item">
                                         <label class="control">
-                                  <input class="control-input" type="checkbox" name="Parking" checked>
-                                 Парковка<br>
-                                       </label>
+                                            <input class="visually-hidden control-input" type="checkbox" name="infrastructure" value="Парковка" checked>
+                                            <span class="control-mark control-mark-checkbox"></span>
+                                            <span class="control-label">Парковка</span>
+                                          </label>
                                     </li>
                                     <!--li><br></li-->
                                     <li class="catalog-filter-item">
                                         <label class="control">
-                                   <input class="control-input" type="checkbox" name="Parking" >
-                                 Wi-Fi<br>
-                                       </label>
+                                            <input class="visually-hidden control-input" type="checkbox" name="Wi-Fi" value="Wi-Fi" >
+                                            <span class="control-mark control-mark-checkbox"></span>
+                                            <span class="control-label">Wi-Fi</span>
+                                          </label>
                                     </li>
                                 </ul>
                             </fieldset>
