@@ -79,7 +79,7 @@
     .price-input {
         display: block;
         height: 48px;
-        width: 145px;
+        width: 143.5px;
         background-color: transparent;
         border: 2px solid #FFFFFF;
         box-sizing: border-box;
@@ -140,6 +140,10 @@
         color: #FFFFFF;
         height: 48px;
         width: 160px;
+        font: 16px bold;
+        text-transform: uppercase;
+        font: 700;
+        font-family: inherit;
     }
     
     .clear-search-parameters {
@@ -233,6 +237,28 @@
         margin-bottom: 16px;
     }
     
+    .product-card-button-favorite:hover {
+        background-color: #68A2CA;
+    }
+    
+    .product-card-button-favorite:focus {
+        background-color: #68A2CA;
+        outline: 3px solid #756257;
+    }
+    
+    .price-input:focus {
+        outline: 3px solid #68A2CA;
+    }
+    
+    .price-input:active {
+        background-color: #756257;
+        outline: 2px solid #ffffff;
+    }
+    
+    .product-card-button-favorite:active {
+        background-color: #68A2CA 0.2;
+    }
+    
     .hotels-loading {
         display: flex;
         justify-content: center;
@@ -241,8 +267,17 @@
         padding: 30px 0;
     }
     
-    .favorite-landed {
+    .product-card-favorite-landed {
         background-color: #7DB54F;
+    }
+    
+    .product-card-favorite-landed:hover {
+        background-color: #6C9E42;
+    }
+    
+    .product-card-favorite-landed:focus {
+        background-color: #6C9E42;
+        outline: 3px solid #68A2Ca;
     }
     
     .product-card-button-details {
@@ -264,6 +299,20 @@
         margin-top: 16px;
         margin-right: 5px;
         margin-bottom: 16px;
+    }
+    
+    .product-card-button-details:hover {
+        background-color: #615048;
+    }
+    
+    .product-card-button-details:focus {
+        background-color: #615048;
+        outline: 3px solid #83B3D3;
+    }
+    
+    .product-card-button-details:active {
+        background-color: #615048 0.2;
+        outline: 3px solid #83B3D3;
     }
     
     .hotel-card-details {
@@ -305,6 +354,19 @@
         cursor: pointer;
         box-sizing: border-box;
         background-color: #83B3D3;
+    }
+    
+    .card-load-button:hover {
+        background-color: #68A2CA;
+    }
+    
+    .card-load-button:focus {
+        background-color: #68A2CA;
+        outline: 3px solid #756257;
+    }
+    
+    .card-load-button:active {
+        background-color: #68A2CA 0.2;
     }
     
     .card-load-summary {
@@ -405,13 +467,6 @@
         top: -2px;
         left: 4px;
     }
-    /* .control-input[type="radio"]:checked+.control-mark::after {
-        position: absolute;
-        content: url("images/labels/radio-set.svg");
-        display: block;
-        top: -2px;
-        left: 4px;
-    } */
     
     .mailing-catalog {
         color: black;
@@ -440,3 +495,5 @@
         font-size: 18px;
         line-height: 23px;
     }
+    
+    .breadcrumbs-item::after {}
