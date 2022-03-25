@@ -388,8 +388,6 @@ main {
     width: 600px;
 }
 
-.mail-text:hover {}
-
 .hotel-search {
     font-size: 20px;
     line-height: 36px;
@@ -442,6 +440,20 @@ main {
     text-decoration: none;
     border-radius: 10px;
     margin: 0 auto;
+}
+
+.hotel-search-button:hover {
+    background-color: #61504B;
+}
+
+.hotel-search-button:focus {
+    outline: 3px solid #83B3D3;
+    background-color: #615048;
+}
+
+.hotel-search-button:active {
+    color: rgba(255, 255, 255, 0.3);
+    background-color: #615048;
 }
 
 .button-subscribe {
