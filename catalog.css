@@ -304,6 +304,7 @@
         border: none;
         cursor: pointer;
         box-sizing: border-box;
+        background-color: #83B3D3;
     }
     
     .card-load-summary {
@@ -404,13 +405,31 @@
         top: -2px;
         left: 4px;
     }
-    
-    .control-input[type="radio"]:checked+.control-mark::after {
+    /* .control-input[type="radio"]:checked+.control-mark::after {
         position: absolute;
         content: url("images/labels/radio-set.svg");
         display: block;
         top: -2px;
         left: 4px;
+    } */
+    
+    .raiting-stars {
+        display: flex;
+    }
+    
+    .control-input[type="radio"]:checked+.control-mark::after {
+        position: absolute;
+        content: "";
+        width: 10px;
+        height: 10px;
+        background-color: #3F5E72;
+        border-radius: 50%;
+        top: 5px;
+        left: 5px;
+    }
+    
+    .control-input[type="radio"]+.control-mark {
+        border-radius: 50%;
     }
     
     .control-label {
