@@ -395,7 +395,7 @@ main {
     display: block;
     text-align: center;
     justify-content: center;
-    margin: 90px 0 93px;
+    padding: 90px 0 93px;
 }
 
 .hotel-search-title {
