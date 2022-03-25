@@ -1,359 +1,367 @@
-.catalog-hotels-search {
-    background-image: url("images/landscape/catalog-background.png");
-    padding-top: 35px;
-    padding-bottom: 86px;
-    background-position: center;
-    background-size: cover;
-    padding-top: 40px;
-}
-
-.breadcrumbs-catalog-header {
-    display: flex;
-    align-items: flex-start;
-    padding: 0px;
-    margin: 0;
-    margin-bottom: 48px;
-    list-style: none;
-    padding: 0px 0 0 2px;
-}
-
-.breadcrumbs-item {
-    margin-right: 8.5px;
-}
-
-.breadcrumbs-link {
-    color: #FFFFFF;
-    font-size: 16px;
-    line-height: 21px;
-    text-decoration: none;
-}
-
-.inner-header-title {
-    color: #FFFFFF;
-    font-size: 60px;
-    font-weight: 700;
-    margin: 0;
-    line-height: 68px;
-}
-
-.filter-infrastructure,
-.filter-accomodation,
-.catalog-filter-list,
-.price-limits-area {
-    justify-content: left;
-    margin-left: -20px;
-    padding-left: -20px;
-    list-style: none;
-    border: none;
-    display: flex;
-    flex-direction: column;
-}
-
-.filter-areas {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    justify-items: left;
-    list-style: none;
-    border: none;
-    color: #FFFFFF;
-    font-size: 18px;
-}
-
-.catalog-filter-item,
-.accomodation-filter-item {
-    height: 23px;
-    margin-bottom: 13px;
-    justify-content: left;
-    margin-left: -20px;
-}
-
-.price-limits-input {
-    display: grid;
-    width: 287px;
-    grid-template-columns: 1fr 1fr;
-    margin: 0 0 15px;
-    padding: 0;
-    background: none;
-}
-
-.price-input {
-    height: 48px;
-    background: none;
-    border-color: white;
-    color: white;
-    margin: 20px 0 10px;
-    padding-left: 0px;
-    justify-content: space-between;
-    font-size: 18px;
-    width: 143px;
-}
-
-.control {
-    margin: 0;
-    padding: 0;
-}
-
-.control-input {
-    font-size: 18px;
-    line-height: 23.21px;
-}
-
-.control-subtitle {
-    font-size: 20px;
-}
-
-.clear-search-parameters {
-    color: #FFFFFF;
-    font-size: 18px;
-    text-decoration: none;
-}
-
-.filter-activate {
-    display: grid;
-    text-align: center;
-    border: none;
-    justify-content: center;
-}
-
-.filter-parameter-set {
-    background-color: #83B3D3;
-    vertical-align: middle;
-    margin-top: 35px;
-    margin-left: 70px;
-    color: #FFFFFF;
-    height: 48px;
-    width: 160px;
-}
-
-.clear-search-parameters {
-    /* margin-left: 45px;*/
-    margin: 20px 45px 0;
-    padding-left: 25px;
-    height: 23px;
-    width: 160px;
-}
-
-.catalog-results {
-    padding-top: 44px;
-    margin-bottom: 73px;
-}
-
-.mailing-catalog {
-    padding-bottom: 140px;
-    text-align: center;
-}
-
-.filter-output-area {
-    display: flex;
-    margin-bottom: 73px;
-    align-items: center;
-}
-
-.search-total {
-    font-size: 30px;
-    line-height: 39px;
-    margin-right: 20px;
-}
-
-.catalog-select-control {
-    text-align: center;
-    vertical-align: top;
-    height: 49px;
-    width: 287px;
-    margin-left: auto;
-}
-
-.output-type {
-    display: flex;
-    list-style: none;
-    margin: 0 0 0 80px;
-}
-
-.output-item {
-    margin-right: 8px;
-}
-
-.location-list {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin: 0 0 54px;
-    list-style: none;
-    grid-column-gap: 18px;
-    grid-row-gap: 10px;
-}
-
-.product-card-button-favorite {
-    background-color: #83B3D3;
-    display: flex;
-    flex-direction: column;
-    color: #83B3D3;
-    width: 140px;
-    height: 37px;
-    font-size: 16px;
-    font-weight: bold;
-    line-height: 18px;
-    justify-content: center;
-    text-align: center;
-    /* text-align: middle; */
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    margin-top: 16px;
-    margin-bottom: 16px;
-}
-
-.favorite-landed {
-    background-color: #7DB54F;
-}
-
-.product-card-button-details {
-    background-color: #756257;
-    display: flex;
-    flex-direction: column;
-    color: #83B3D3;
-    width: 133px;
-    height: 37px;
-    font-size: 16px;
-    font-weight: bold;
-    line-height: 18px;
-    text-align: center;
-    justify-content: center;
-    vertical-align: middle;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    margin-top: 16px;
-    margin-right: 5px;
-    margin-bottom: 16px;
-}
-
-.hotel-card-details {
-    display: grid;
-    grid-template-columns: 133px 140px;
-    margin-top: 16px;
-    justify-content: space-between;
-}
-
-.product-card {
-    padding: 20px;
-}
-
-.card-load-button {
-    background-color: #83B3D3;
-    display: flex;
-    color: #FFFFFF;
-    width: auto;
-    height: 60px;
-    font-size: 20px;
-    line-height: 26px;
-    padding-top: 17px;
-    justify-content: center;
-    vertical-align: middle;
-    margin: auto;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-.card-load-summary {
-    margin-top: 30px;
-    padding-top: 30px;
-    display: flex;
-    border-top: 1px solid #E6E6E6;
-}
-
-.pagination-catalog-container {
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-
-.pagination-item-catalog {
-    /*  display: flex;*/
-    align-items: center;
-    background-color: #83B3D3;
-    margin-right: 8px;
-    list-style: none;
-}
-
-.pagination-link-button {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    text-decoration: none;
-    vertical-align: middle;
-    height: 55px;
-    min-width: 55px;
-    margin-right: 8px;
-    /*   padding-left: 25px;*/
-    font-size: 20px;
-    justify-content: center;
-    line-height: 26px;
-    font-weight: bold;
-    color: #FFFFFF;
-}
-
-.pagination-item-current {
-    background-color: #F2F2F2;
-    color: black;
-}
-
-.pagination-link-number {
-    padding-top: 25px;
-}
-
-.catalog-label {
-    margin-left: auto;
-    line-height: 23px;
-    font-size: 18px;
-}
-
-.catalog-hotel-on-page {
-    width: 160px;
-    height: 48px;
-    margin-left: 50px;
-}
-
-.control {
-    position: relative;
-    display: block;
-    padding-left: 39px;
-}
-
-.control-mark {
-    position: absolute;
-    left: 0;
-    background: #FFFFFF;
-    border-radius: 4px;
-    width: 20px;
-    height: 20px;
-}
-
-.control-mark-checkbox:hover {
-    background: rgba(255, 255, 255, 0.6);
-}
-
-.control-input[type="radio"]:checked:focus+.control-mark {
-    outline: 3px solid #83B3D3;
-}
-
-.control-input[type="checkbox"]:focus+.control-mark {
-    outline: 3px solid #83B3D3;
-    background: rgba(255, 255, 255, 0.6);
-}
-
-.control-mark-checkbox:active {
-    background: rgba(255, 255, 255, 0.3);
-}
-
-.control-input[type="checkbox"]:checked+.control-mark::after {
-    position: absolute;
-    content: url("images/labels/check-bird.svg");
-    display: block;
-    top: -2px;
-    left: 4px;
-}
-
-.control-label {
-    font-size: 18px;
-    line-height: 23px;
-}
+    .catalog-hotels-search {
+        background-image: url("images/landscape/catalog-background.png");
+        padding-top: 35px;
+        padding-bottom: 86px;
+        background-position: center;
+        background-size: cover;
+        padding-top: 40px;
+    }
+    
+    .breadcrumbs-catalog-header {
+        display: flex;
+        align-items: flex-start;
+        padding: 0px;
+        margin: 0;
+        margin-bottom: 48px;
+        list-style: none;
+        padding: 0px 0 0 2px;
+    }
+    
+    .breadcrumbs-item {
+        margin-right: 8.5px;
+    }
+    
+    .breadcrumbs-link {
+        color: #FFFFFF;
+        font-size: 16px;
+        line-height: 21px;
+        text-decoration: none;
+    }
+    
+    .inner-header-title {
+        color: #FFFFFF;
+        font-size: 60px;
+        font-weight: 700;
+        margin: 0;
+        line-height: 68px;
+    }
+    
+    .filter-infrastructure,
+    .filter-accomodation,
+    .catalog-filter-list,
+    .price-limits-area {
+        justify-content: left;
+        margin-left: -20px;
+        padding-left: -20px;
+        list-style: none;
+        border: none;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .filter-areas {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        justify-items: left;
+        list-style: none;
+        border: none;
+        color: #FFFFFF;
+        font-size: 18px;
+    }
+    
+    .catalog-filter-item,
+    .accomodation-filter-item {
+        height: 23px;
+        margin-bottom: 13px;
+        justify-content: left;
+        margin-left: -20px;
+    }
+    
+    .price-limits-input {
+        display: grid;
+        width: 287px;
+        grid-template-columns: 1fr 1fr;
+        margin: 0 0 15px;
+        padding: 0;
+        background: none;
+    }
+    
+    .price-input {
+        height: 48px;
+        background: none;
+        border-color: white;
+        color: white;
+        margin: 20px 0 10px;
+        padding-left: 0px;
+        justify-content: space-between;
+        font-size: 18px;
+        width: 143px;
+    }
+    
+    .control {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .control-input {
+        font-size: 18px;
+        line-height: 23.21px;
+    }
+    
+    .control-subtitle {
+        font-size: 20px;
+    }
+    
+    .clear-search-parameters {
+        color: #FFFFFF;
+        font-size: 18px;
+        text-decoration: none;
+    }
+    
+    .filter-activate {
+        display: grid;
+        text-align: center;
+        border: none;
+        justify-content: center;
+    }
+    
+    .filter-parameter-set {
+        background-color: #83B3D3;
+        vertical-align: middle;
+        margin-top: 35px;
+        margin-left: 70px;
+        color: #FFFFFF;
+        height: 48px;
+        width: 160px;
+    }
+    
+    .clear-search-parameters {
+        /* margin-left: 45px;*/
+        margin: 20px 45px 0;
+        padding-left: 25px;
+        height: 23px;
+        width: 160px;
+    }
+    
+    .catalog-results {
+        padding-top: 44px;
+        margin-bottom: 73px;
+    }
+    
+    .mailing-catalog {
+        padding-bottom: 140px;
+        text-align: center;
+    }
+    
+    .filter-output-area {
+        display: flex;
+        margin-bottom: 73px;
+        align-items: center;
+    }
+    
+    .search-total {
+        font-size: 30px;
+        line-height: 39px;
+        margin-right: 20px;
+    }
+    
+    .catalog-select-control {
+        text-align: center;
+        vertical-align: top;
+        height: 49px;
+        width: 287px;
+        margin-left: auto;
+    }
+    
+    .output-type {
+        display: flex;
+        list-style: none;
+        margin: 0 0 0 80px;
+    }
+    
+    .output-item {
+        margin-right: 8px;
+    }
+    
+    .location-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 0 0 54px;
+        list-style: none;
+        grid-column-gap: 18px;
+        grid-row-gap: 10px;
+    }
+    
+    .product-card-button-favorite {
+        background-color: #83B3D3;
+        display: flex;
+        flex-direction: column;
+        color: #83B3D3;
+        width: 140px;
+        height: 37px;
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 18px;
+        justify-content: center;
+        text-align: center;
+        /* text-align: middle; */
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+    
+    .favorite-landed {
+        background-color: #7DB54F;
+    }
+    
+    .product-card-button-details {
+        background-color: #756257;
+        display: flex;
+        flex-direction: column;
+        color: #83B3D3;
+        width: 133px;
+        height: 37px;
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 18px;
+        text-align: center;
+        justify-content: center;
+        vertical-align: middle;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-top: 16px;
+        margin-right: 5px;
+        margin-bottom: 16px;
+    }
+    
+    .hotel-card-details {
+        display: grid;
+        grid-template-columns: 133px 140px;
+        margin-top: 16px;
+        justify-content: space-between;
+    }
+    
+    .product-card {
+        padding: 20px;
+    }
+    
+    .card-load-button {
+        background-color: #83B3D3;
+        display: flex;
+        color: #FFFFFF;
+        width: auto;
+        height: 60px;
+        font-size: 20px;
+        line-height: 26px;
+        padding-top: 17px;
+        justify-content: center;
+        vertical-align: middle;
+        margin: auto;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    
+    .card-load-summary {
+        margin-top: 30px;
+        padding-top: 30px;
+        display: flex;
+        border-top: 1px solid #E6E6E6;
+    }
+    
+    .pagination-catalog-container {
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+    
+    .pagination-item-catalog {
+        /*  display: flex;*/
+        align-items: center;
+        background-color: #83B3D3;
+        margin-right: 8px;
+        list-style: none;
+    }
+    
+    .pagination-link-button {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+        vertical-align: middle;
+        height: 55px;
+        min-width: 55px;
+        margin-right: 8px;
+        /*   padding-left: 25px;*/
+        font-size: 20px;
+        justify-content: center;
+        line-height: 26px;
+        font-weight: bold;
+        color: #FFFFFF;
+    }
+    
+    .pagination-item-current {
+        background-color: #F2F2F2;
+        color: black;
+    }
+    
+    .pagination-link-number {
+        padding-top: 25px;
+    }
+    
+    .catalog-label {
+        margin-left: auto;
+        line-height: 23px;
+        font-size: 18px;
+    }
+    
+    .catalog-hotel-on-page {
+        width: 160px;
+        height: 48px;
+        margin-left: 50px;
+    }
+    
+    .control {
+        position: relative;
+        display: block;
+        padding-left: 39px;
+    }
+    
+    .control-mark {
+        position: absolute;
+        left: 0;
+        background: #FFFFFF;
+        border-radius: 4px;
+        width: 20px;
+        height: 20px;
+    }
+    
+    .control-mark-checkbox:hover {
+        background: rgba(255, 255, 255, 0.6);
+    }
+    
+    .control-input[type="radio"]:checked:focus+.control-mark {
+        outline: 3px solid #83B3D3;
+    }
+    
+    .control-input[type="checkbox"]:focus+.control-mark {
+        outline: 3px solid #83B3D3;
+        background: rgba(255, 255, 255, 0.6);
+    }
+    
+    .control-mark-checkbox:active {
+        background: rgba(255, 255, 255, 0.3);
+    }
+    
+    .control-input[type="checkbox"]:checked+.control-mark::after {
+        position: absolute;
+        content: url("images/labels/check-bird.svg");
+        display: block;
+        top: -2px;
+        left: 4px;
+    }
+    
+    .control-input[type="radio"]:checked+.control-mark::after {
+        position: absolute;
+        content: url("images/labels/radio-set.svg");
+        display: block;
+        top: -2px;
+        left: 4px;
+    }
+    
+    .control-label {
+        font-size: 18px;
+        line-height: 23px;
+    }
