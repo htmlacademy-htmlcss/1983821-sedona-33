@@ -350,7 +350,7 @@
                                     <a class="pagination-link-button" href="#">10</a>
                                 </li>
                         </ul>
-                        <label class="catalog-label">Отелей на странице </label>
+                        <label class="catalog-label">Гостиниц на странице </label>
                         <select class="catalog-hotel-on-page" aria-label="Гостиниц на странице">
                           <option value="four">4</option>
                           <option value="six">6</option>
@@ -359,13 +359,18 @@
                     </div>
                 </div>
             </section>
-            <section class="mailing-catalog">
-                <h2 class="mailing-title">ПОДПИШИТЕСЬ НА РАССЫЛКУ</h2>
-                <p class="mailing-text">Только полезная информация и никакого спама,<br> честное бойскаутское!</p>
-                <form action="https://echo.htmlacademy.ru/courses" method="post" enctype="multipart/form-data">
-                    <label for="emailfield"></label>
+            <section class="hotel-search">
+                <h2 class="hotel-search-title">ЗАИНТЕРЕСОВАЛИСЬ? </h2>
+                <p class="hotel-search-text">Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в Седоне.</p>
+                <a class="hotel-search-button" href="catalog.html ">поиск гостиницы в седоне</a>
+            </section>
+            <section class="mailing">
+                <h2 class="mailing-title ">ПОДПИШИТЕСЬ НА РАССЫЛКУ</h2>
+                <p class="mailing-text ">Только полезная информация и никакого спама, <br> честное бойскаутское!</p>
+                <form class="form-mail-subscription" action="https://echo.htmlacademy.ru/courses" method="post" enctype="multipart/form-data">
+                    <label for="emailfield " class="label-subscription visually-hidden">подписка</label>
                     <input type="email" id="emailfield" name="e-mailfield" class="mail-text" value="Ваш e-mail">
-                    <button class="button-subscribe" type="submit">Подписаться</button>
+                    <button class="button-subscribe " type="submit ">Подписаться</button>
                 </form>
             </section>
         </main>

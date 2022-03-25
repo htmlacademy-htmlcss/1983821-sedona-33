@@ -359,6 +359,9 @@ main {
     color: #FFFFFF;
     justify-content: center;
     text-align: center;
+}
+
+.mailing-picture {
     background-image: url("images/landscape/background-mailing.png");
 }
 
