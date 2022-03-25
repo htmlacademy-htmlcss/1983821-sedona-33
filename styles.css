@@ -359,6 +359,7 @@ main {
     color: #FFFFFF;
     justify-content: center;
     text-align: center;
+    margin-top: 87px;
 }
 
 .mailing-picture {
@@ -403,6 +404,7 @@ main {
     font-size: 30px;
     line-height: 36px;
     font-weight: bold;
+    padding-top: 87px;
 }
 
 .hotel-search-text {
