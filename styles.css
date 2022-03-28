@@ -402,7 +402,7 @@ body {
     font-size: 30px;
     line-height: 36px;
     font-weight: bold;
-    padding-top: 87px;
+    /* padding-top: 87px;*/
 }
 
 .hotel-search-text {
@@ -572,7 +572,6 @@ body {
 
 .hotel-search {
     padding: 90px 0 93px;
-    padding: 0;
     margin: 0;
 }
 
